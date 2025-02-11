@@ -1,5 +1,5 @@
 "use client";
-import { UserData } from "../../public/data/config";
+import { MyProjects, UserData } from "../../public/data/config";
 import img from "../../public/selfpic.png";
 import Image from "next/image";
 import { Github, Linkedin, UserPen } from "lucide-react";
@@ -13,6 +13,11 @@ export default function Home() {
   useEffect(() => {
     setOpen(true);
   },[]);
+  function getCompletedProjects(){
+    let x = 0;
+    MyProjects.content.map((item) => {if(item.endDate !== "Present") x+=1;})
+    return x;
+  }
   return (
     <>
       <Navbar />
@@ -36,9 +41,9 @@ export default function Home() {
               </div>
               <div className="w-auto relative mt-4 md:mt-0">
                 <div className="absolute inset-x-[12.5%] top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] blur-sm" />
-                <div className="absolute inset-x-[12.5%] top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px" />
+                <div className="absolute inset-x-[12.5%] top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px]" />
                 <div className="absolute inset-x-[37.5%] top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] blur-sm" />
-                <div className="absolute inset-x-[37.5%] top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px" />
+                <div className="absolute inset-x-[37.5%] top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[2px]" />
               </div>
             </h1>
             <h2 className="pt-4 pb-2 text-lg font-mono text-gray-600">
@@ -50,7 +55,7 @@ export default function Home() {
             <div className="flex justify-evenly items-center  w-[80%] h-auto p-4 mb-2">
               <div>
                 <NumberTicker
-                  value={6}
+                  value={getCompletedProjects()}
                   className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
                 />
                 Projects Completed
