@@ -60,7 +60,7 @@ export default function Projects() {
                     <div className="text-sm text-slate-500 flex items-center mb-4">
                       <CalendarClock className="scale-[70%]" />
                       {item.startDate === ""
-                        ? "Under Planning"
+                        ? "Planning"
                         : item.startDate + " - " + item.endDate}
                     </div>
                     <div className="text-sm text-slate-500 flex flex-1 mb-4">
