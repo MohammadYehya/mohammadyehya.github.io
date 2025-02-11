@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { CirclePlus } from "lucide-react";
+import { CalendarClock, CirclePlus, MapPin } from "lucide-react";
 import { MyExperiences } from "../../../public/data/config";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import Image from "next/image";
 
 export default function Experience() {
   const [open, setOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Experience() {
     setOpen(true);
   }, []);
   return (
-    <div>
+    <div className="h-screen">
       <Navbar />
       <ScrollArea className="h-[calc(100%-45px)]">
         <div className="w-full flex justify-center">
@@ -28,8 +29,37 @@ export default function Experience() {
                 className="flex even:flex-row odd:flex-row-reverse w-full justify-center lg:p-0 p-2"
                 key={index}
               >
-                <Card className="flex flex-1 h-96 shadow-2xl border-slate-300 p-4">
-                  {}
+                <Card className="flex flex-1 h-auto shadow-2xl border-slate-300 p-6 hover:scale-110 transition-all duration-500">
+                  <div className="mr-4  h-[50px] flex">
+                    <Image
+                      src={details.logo}
+                      alt=""
+                      width={50}
+                      height={1}
+                      className="rounded-full"
+                    />
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="font-semibold text-lg mt-2 flex">
+                      {details.title}
+                    </div>
+                    <div className=" text-base flex">
+                      {details.position}
+                    </div>
+                    <Separator className="mt-1 mb-3" />
+                    <div className="text-sm text-slate-500 flex items-center mb-2">
+                      <MapPin className="scale-[70%]" />
+                      {details.location}
+                    </div>
+                    <div className="text-sm text-slate-500 flex items-center mb-2">
+                      <CalendarClock className="scale-[70%]" />
+                      {details.startDate} - {details.endDate}
+                    </div>
+                    <div className="text-sm text-slate-500 flex items-center mb-4">
+                      {/* <Award className="scale-[80%]" /> */}
+                      {details.desc}
+                    </div>
+                  </div>
                 </Card>
                 <div className="lg:flex lg:flex-col items-center mx-4 hidden ">
                   <Separator
@@ -42,7 +72,7 @@ export default function Experience() {
                     className="flex flex-1 bg-slate-400"
                   />
                 </div>
-                <Card className="lg:flex lg:flex-1 opacity-0 hidden p-4"></Card>
+                <Card className="lg:flex lg:flex-1 opacity-0 hidden p-6"></Card>
               </div>
             ))}
           </div>
