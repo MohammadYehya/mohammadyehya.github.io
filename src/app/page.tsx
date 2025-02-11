@@ -1,5 +1,5 @@
 "use client";
-import { MyProjects, UserData } from "../../public/data/config";
+import { MyExperiences, MyProjects, UserData } from "../../public/data/config";
 import img from "../../public/selfpic.png";
 import Image from "next/image";
 import { Github, Linkedin, UserPen } from "lucide-react";
@@ -12,10 +12,12 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   useEffect(() => {
     setOpen(true);
-  },[]);
-  function getCompletedProjects(){
+  }, []);
+  function getCompletedProjects() {
     let x = 0;
-    MyProjects.content.map((item) => {if(item.endDate !== "Present") x+=1;})
+    MyProjects.content.map((item) => {
+      if (item.endDate !== "Present") x += 1;
+    });
     return x;
   }
   return (
@@ -53,26 +55,33 @@ export default function Home() {
               {UserData.about}
             </p>
             <div className="flex justify-evenly items-center  w-[80%] h-auto p-4 mb-2">
-              <div>
-                <NumberTicker
-                  value={getCompletedProjects()}
-                  className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
-                />
+              <div className="h-full items-center flex flex-col">
+                <div className="flex text-5xl">
+                  <NumberTicker
+                    value={getCompletedProjects()}
+                    className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
+                  />
+                </div>
                 Projects Completed
               </div>
-              <div>
-                <NumberTicker
-                  value={2}
-                  className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
-                />
+              <div className="h-full items-center flex flex-col">
+                <div className="flex text-5xl">
+                  <NumberTicker
+                    value={2}
+                    className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
+                  />
+                  +
+                </div>
                 Years of Experience
               </div>
-              <div>
-                <NumberTicker
-                  value={700}
-                  className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
-                />
-                Contributions
+              <div className="h-full items-center flex flex-col">
+                <div className="flex text-5xl">
+                  <NumberTicker
+                    value={MyExperiences.content.length}
+                    className="font-medium tracking-tighter flex-1 justify-center mb-1"
+                  />
+                </div>
+                Organiztions worked with
               </div>
             </div>
             <p className="flex gap-x-3">
