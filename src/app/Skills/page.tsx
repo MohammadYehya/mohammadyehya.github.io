@@ -4,6 +4,7 @@ import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { MySkills } from "../../../public/data/config";
 import Image from "next/image";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Skills() {
   const [open, setOpen] = useState(false);
@@ -11,8 +12,10 @@ export default function Skills() {
     setOpen(true);
   }, []);
   return (
-    <>
+    <div className="h-screen">
       <Navbar />
+      <ScrollArea className="h-[calc(100%-45px)]">
+
       <div
         className={`my-10 w-full flex justify-center transition-all duration-1000 ${
           open ? "opacity-100" : "opacity-0"
@@ -36,7 +39,7 @@ export default function Skills() {
                   return (
                     <Card
                       key={index}
-                      className={`flex flex-row justify-start lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p- h-14 hover:h-32 group items-center transition-all duration-300 ease-in-out overflow-clip`}
+                      className={`flex flex-row justify-start lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p- h-14 hover:h-32 hover:cursor-pointer group items-center transition-all duration-300 ease-in-out overflow-clip`}
                     >
                       <div className="font-bold items-start flex w-full pl-5">
                         {details.name}
@@ -62,6 +65,7 @@ export default function Skills() {
           ))}
         </div>
       </div>
-    </>
+      </ScrollArea>
+    </div>
   );
 }
