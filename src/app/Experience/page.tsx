@@ -3,7 +3,12 @@ import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { CalendarClock, CirclePlus, MapPin } from "lucide-react";
+import {
+  CalendarClock,
+  ChevronsRight,
+  CirclePlus,
+  MapPin,
+} from "lucide-react";
 import { MyExperiences } from "../../../public/data/config";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Image from "next/image";
@@ -43,8 +48,13 @@ export default function Experience() {
                     <div className="font-semibold text-lg mt-2 flex">
                       {details.title}
                     </div>
-                    <div className=" text-base flex">
-                      {details.position}
+                    <div className=" text-sm flex items-center">
+                      {details.positions.map((pos, index) => (
+                        <>
+                          <div>{pos}</div>
+                          <ChevronsRight className={`${index === details.positions.length-1 ? 'hidden' : ''} mx-1 font-thin scale-90`}/>
+                        </>
+                      ))}
                     </div>
                     <Separator className="mt-1 mb-3" />
                     <div className="text-sm text-slate-500 flex items-center mb-2">
