@@ -26,7 +26,7 @@ export default function Projects() {
     <div className="h-screen">
       <Navbar />
       <ScrollArea className="h-[calc(100%-45px)]">
-        <ScrollBar className=""/>
+        <ScrollBar className="" />
         <div
           className={`my-10 w-full flex justify-center transition-all duration-1000 ${
             open ? "opacity-100" : "opacity-0"
@@ -59,7 +59,9 @@ export default function Projects() {
                     </div>
                     <div className="text-sm text-slate-500 flex items-center mb-4">
                       <CalendarClock className="scale-[70%]" />
-                      {item.startDate} - {item.endDate}
+                      {item.startDate === ""
+                        ? "Under Planning"
+                        : item.startDate + " - " + item.endDate}
                     </div>
                     <div className="text-sm text-slate-500 flex flex-1 mb-4">
                       {item.description}
