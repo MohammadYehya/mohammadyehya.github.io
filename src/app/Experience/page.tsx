@@ -50,10 +50,10 @@ export default function Experience() {
                     </div>
                     <div className=" text-sm flex items-center">
                       {details.positions.map((pos, index) => (
-                        <>
+                        <div className="flex" key={index}>
                           <div>{pos}</div>
                           <ChevronsRight className={`${index === details.positions.length-1 ? 'hidden' : ''} mx-1 font-thin scale-90`}/>
-                        </>
+                        </div>
                       ))}
                     </div>
                     <Separator className="mt-1 mb-3" />
