@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { UserData } from "../../../public/data/config";
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
+import icon from "../favicon.ico";
 
 export default function Contact() {
   const [open, setOpen] = useState(false);
@@ -14,7 +16,7 @@ export default function Contact() {
     <>
       <Navbar />
       <div
-        className={`flex p-2 lg:px-40 lg:py-28 h-10 w-screen flex-col transition-all duration-1000 ${
+        className={`flex p-2 lg:px-32 lg:py-20 h-10 w-screen flex-col transition-all duration-1000 ${
           open ? "opacity-100 " : "opacity-0 "
         }`}
       >
@@ -22,7 +24,9 @@ export default function Contact() {
           className={`flex flex-col lg:flex-row lg:justify-normal justify-center items-center`}
         >
           <div className="lg:w-1/2 p-10">
-            <p className="text-6xl lg:text-7xl font-bold">Impressed with my work?</p>
+            <p className="text-6xl lg:text-7xl font-bold">
+              Impressed with my work?
+            </p>
             <div className="mt-10 border rounded-xl p-4 w-full">
               <div className="text-3xl font-bold mb-2">Contact me!</div>
               <div className="flex p-2">
@@ -38,6 +42,18 @@ export default function Contact() {
                 <Phone className="mr-2" />
                 {UserData.phone}
               </div>
+            </div>
+          </div>
+          <div className="flex justify-center items-center w-auto">
+            <div className="animate-flip">
+              <Image
+                src={icon}
+                height={1}
+                width={400}
+                className=" object-cover rounded-full shadow-2xl shadow-black"
+                alt="thumbnail"
+                draggable={false}
+              />
             </div>
           </div>
         </div>
