@@ -2,11 +2,12 @@
 import { MyExperiences, MyProjects, UserData } from "../../public/data/config";
 import img from "../../public/selfpic.png";
 import Image from "next/image";
-import { Github, Linkedin, UserPen } from "lucide-react";
+import { Github, Linkedin, UserSearch } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { NumberTicker } from "@/components/magicui/number-ticker";
+import './globals.css'
 
 export default function Home() {
   const [open, setOpen] = useState(false);
@@ -101,7 +102,7 @@ export default function Home() {
                 href={"/Contact"}
                 className="rounded-full p-2 transition-all duration-300 hover:bg-slate-800 hover:text-white hover:scale-110"
               >
-                <UserPen />
+                <UserSearch />
               </Link>
             </p>
           </div>
