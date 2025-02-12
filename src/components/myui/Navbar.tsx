@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { NavItems, UserData } from "../../../public/data/config";
-import { CodeXml } from "lucide-react";
+import { CodeXml, UserSearch } from "lucide-react";
 // import { Transition } from "./Transition";
 
 export default function Navbar() {
@@ -85,7 +85,7 @@ export default function Navbar() {
                 ))}
               </ul>
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end"><Link href={"/Contact"}>Contact Me</Link></div>
+            <div className="hidden lg:flex lg:flex-1 lg:justify-end"><Link href={"/Contact"} className="flex text-black hover:bg-slate-300 transition-all duration-200 p-2 px-4"><UserSearch className="scale-[60%]"/>Contact</Link></div>
           </div>
         </nav>
         <div
