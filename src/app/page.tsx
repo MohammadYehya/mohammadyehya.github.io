@@ -67,7 +67,7 @@ export default function Home() {
               <div className="h-full items-center flex flex-col">
                 <div className="flex text-5xl">
                   <NumberTicker
-                    value={2}
+                    value={1}
                     className="text-5xl font-medium tracking-tighter flex-1 justify-center flex mb-1"
                   />
                   +
