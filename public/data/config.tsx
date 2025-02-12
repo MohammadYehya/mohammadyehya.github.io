@@ -9,6 +9,8 @@ import {
 export const UserData = {
   name: "Mohammad",
   lastname: "Yehya",
+  email: 'mohammad7446@gmail.com',
+  phone: '+92335 2495576',
   profession: "Software Developer | Machine Learning Engineer",
   about:
     "I'm a developer who lives in Pakistan. I love learning and using different technologies. Currently, I'm working on a project with Toyota which involves context-aware anomaly detection, computer vision, and sequence verification.",
@@ -384,7 +386,7 @@ export const MyExperiences = {
       title: "Toyota Indus Motor Company",
       positions: ['Junior Full Stack ML Engineer'],
       location: "Karachi, Pakistan",
-      startDate: "",
+      startDate: "Oct 2024",
       endDate: "Present",
       desc: "",
     },
