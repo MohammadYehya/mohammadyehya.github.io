@@ -19,7 +19,8 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		animation: {
-  			meteor: 'meteor 5s linear infinite'
+  			meteor: 'meteor 5s linear infinite',
+			flip: 'flipping 5s linear infinite'
   		},
   		keyframes: {
   			meteor: {
@@ -34,7 +35,12 @@ export default {
   					transform: 'rotate(315deg) translateX(-500px)',
   					opacity: '0'
   				}
-  			}
+  			},
+			flipping:{
+				'0%': {transform: 'rotateY(0deg)'},
+				'50%': {transform: 'rotateY(90deg)'},
+				'100%': { transform: 'rotateY(0deg)' },
+			}
   		}
   	}
   },
