@@ -250,6 +250,17 @@ export const MyProjects = {
       ],
     },
     {
+      title: "Context-Aware Detection of Mixed Critical Events using Video Classification",
+      Logo: null,
+      type: "Published Research",
+      description:
+        "Models created to detect mixed-critical events through computer vision.",
+      startDate: "Feb 2024",
+      endDate: "Dec 2024",
+      link: "https://arxiv.org/abs/2411.15773v1",
+      tech: ["Python", "Tensorflow", "Keras", "Numpy", "Scikit-Learn"],
+    },
+    {
       title: "GridForge",
       Logo: "/data/logos/GridForge.png",
       type: "Framework",
@@ -293,7 +304,7 @@ export const MyProjects = {
     {
       title: "MangaVault",
       Logo: "/data/logos/MangaVault.png",
-      type: "Research",
+      type: "Web Application",
       description:
         "An online library of all manga/manwha/manhua with realtime tracking of the latest link to where they are updated.",
       startDate: "",
