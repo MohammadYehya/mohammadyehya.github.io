@@ -112,6 +112,7 @@ export const MySkills = {
       group: "DevOps & Cloud",
       content: [
         { name: "Azure", imgpath: "/data/images/azure.svg", proficiency: 1 },
+        { name: "AWS", imgpath: "/data/images/aws.svg", proficiency: 1 },
         {
           name: "Google Cloud",
           imgpath: "/data/images/gcp.svg",
@@ -147,8 +148,30 @@ export const MySkills = {
           imgpath: "/data/images/firebase.png",
           proficiency: 1,
         },
+        {
+          name: "Supabase",
+          imgpath: "/data/images/Supabase.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Pinecone",
+          imgpath: "/data/images/Pinecone.svg",
+          proficiency: 1,
+        },
         { name: "MySQL", imgpath: "/data/images/mysql.svg", proficiency: 1 },
       ],
+    },
+    {
+      group: 'ORM',
+      content: [
+        {name: "DrizzleORM", imgpath: "/data/images/DrizzleORM.svg", proficiency:1}
+      ]
+    },
+    {
+      group: 'Payment Systems',
+      content: [
+        {name: "Stripe", imgpath: "/data/images/Stripe.svg", proficiency:1}
+      ]
     },
     {
       group: "Data Sceince & Machine Learning",
@@ -203,6 +226,7 @@ export const MySkills = {
           proficiency: 1,
         },
         { name: "Cuda", imgpath: "/data/images/cuda.svg", proficiency: 1 },
+        { name: "SDL", imgpath: "/data/images/SDL.svg", proficiency: 1 },
         { name: "OpenGL", imgpath: "/data/images/opengl.svg", proficiency: 1 },
         { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         {
@@ -269,7 +293,7 @@ export const MyProjects = {
       startDate: "Dec 2024",
       endDate: "Present",
       link: "https://github.com/MohammadYehya/GridForge",
-      tech: ["C++", "CMake", "OpenGL"],
+      tech: ["C++", "CMake", "OpenGL", "SDL"],
     },
     {
       title: "Stock Price Predictor App",
@@ -302,15 +326,48 @@ export const MyProjects = {
       tech: ["Python", "Qiskit"],
     },
     {
-      title: "MangaVault",
-      Logo: "/data/logos/MangaVault.png",
+      title: "Synq ",
+      Logo: "/data/logos/Synq.png",
       type: "Web Application",
       description:
-        "An online library of all manga/manwha/manhua with realtime tracking of the latest link to where they are updated.",
+        "A real-time collaborative workspace that keeps teams and files in perfect sync. Share folders, edit documents, and collaborate effortlessly with instant updates and secure cloud storage.",
       startDate: "",
       endDate: "Present",
-      link: "https://github.com/MohammadYehya/MangaVault",
-      tech: ["NextJS", "TailwindCSS", "FastAPI", "PostgreSQL", "Selenium"],
+      link: "",
+      tech: ["NextJS", "TailwindCSS", "ShadCN/UI", "Supabase", "DrizzleORM", "Socket.IO", "Stripe"],
+    },
+    {
+      title: "Photo Album Application",
+      Logo: null,
+      type: "Web Application",
+      description:
+        "An all in a user-friendly interface which includes, user sign-in and sign-out functionalities, photo uploads, and a favorites system.",
+      startDate: "",
+      endDate: "Present",
+      link: "",
+      tech: ["NextJS", "TailwindCSS", "Supabase"],
+    },
+    {
+      title: "ComicVault",
+      Logo: "/data/logos/ComicVault.png",
+      type: "Web Application",
+      description:
+        "An online library of all comics with realtime tracking of the latest link to where they are updated.",
+      startDate: "",
+      endDate: "Present",
+      link: "https://github.com/MohammadYehya/ComicVault",
+      tech: ["NextJS", "TailwindCSS", "ShadCN/UI", "FastAPI", "PostgreSQL", "Selenium"],
+    },
+    {
+      title: "PDF Chatter",
+      Logo: null,
+      type: "Web Application",
+      description:
+        "An application where users can upload pdfs and ask an AI chatbot about the contents.",
+      startDate: "",
+      endDate: "Present",
+      link: "",
+      tech: ["NextJS", "TailwindCSS", "MongoDB", "AWS"],
     },
     {
       title: "Realtime Face Recognition System",
@@ -340,7 +397,7 @@ export const MyProjects = {
       startDate: "",
       endDate: "Present",
       link: "https://github.com/MohammadYehya/AutoSprite",
-      tech: ["NextJS", "TailwindCSS", "Tensorflow"],
+      tech: ["NextJS", "TailwindCSS", "ShadCN/UI","Tensorflow"],
     },
     {
       title: "Convex Hull Generator",
