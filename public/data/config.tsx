@@ -228,6 +228,7 @@ export const MySkills = {
         { name: "Cuda", imgpath: "/data/images/cuda.svg", proficiency: 1 },
         { name: "SDL", imgpath: "/data/images/SDL.svg", proficiency: 1 },
         { name: "OpenGL", imgpath: "/data/images/opengl.svg", proficiency: 1 },
+        { name: "Unity", imgpath: "/data/images/Unity.svg", proficiency: 1 },
         { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         {
           name: "Selenium",
