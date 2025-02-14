@@ -3,12 +3,7 @@ import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import {
-  CalendarClock,
-  ChevronsRight,
-  CirclePlus,
-  MapPin,
-} from "lucide-react";
+import { CalendarClock, ChevronsRight, CirclePlus, MapPin } from "lucide-react";
 import { MyExperiences } from "../../../public/data/config";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Image from "next/image";
@@ -35,39 +30,47 @@ export default function Experience() {
                 key={index}
               >
                 <Card className="flex flex-1 h-auto shadow-2xl border-slate-300 p-6 hover:scale-110 transition-all duration-500">
-                  <div className="mr-4  h-[50px] flex">
-                    <Image
-                      src={details.logo}
-                      alt=""
-                      width={50}
-                      height={1}
-                      className="rounded-full"
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <div className="font-semibold text-lg mt-2 flex">
-                      {details.title}
+                  <div className="flex flex-1">
+                    <div className="mr-4 h-[50px] flex justify-center items-center">
+                      <Image
+                        src={details.logo}
+                        alt=""
+                        width={250}
+                        height={1}
+                        className="rounded-full"
+                      />
                     </div>
-                    <div className=" text-sm flex items-center">
-                      {details.positions.map((pos, index) => (
-                        <div className="flex" key={index}>
-                          <div>{pos}</div>
-                          <ChevronsRight className={`${index === details.positions.length-1 ? 'hidden' : ''} mx-1 font-thin scale-90`}/>
-                        </div>
-                      ))}
-                    </div>
-                    <Separator className="mt-1 mb-3" />
-                    <div className="text-sm text-slate-500 flex items-center mb-2">
-                      <MapPin className="scale-[70%]" />
-                      {details.location}
-                    </div>
-                    <div className="text-sm text-slate-500 flex items-center mb-2">
-                      <CalendarClock className="scale-[70%]" />
-                      {details.startDate} - {details.endDate}
-                    </div>
-                    <div className="text-sm text-slate-500 flex items-center mb-4">
-                      {/* <Award className="scale-[80%]" /> */}
-                      {details.desc}
+                    <div className="flex flex-col">
+                      <div className="font-semibold text-lg mt-2 flex">
+                        {details.title}
+                      </div>
+                      <div className=" text-sm flex items-center">
+                        {details.positions.map((pos, index) => (
+                          <div className="flex" key={index}>
+                            <div>{pos}</div>
+                            <ChevronsRight
+                              className={`${
+                                index === details.positions.length - 1
+                                  ? "hidden"
+                                  : ""
+                              } mx-1 font-thin scale-90`}
+                            />
+                          </div>
+                        ))}
+                      </div>
+                      <Separator className="mt-1 mb-3" />
+                      <div className="text-sm text-slate-500 flex items-center mb-2">
+                        <MapPin className="scale-[70%]" />
+                        {details.location}
+                      </div>
+                      <div className="text-sm text-slate-500 flex items-center mb-4">
+                        <CalendarClock className="scale-[70%]" />
+                        {details.startDate} - {details.endDate}
+                      </div>
+                      <div className="text-sm text-slate-500 flex items-center mb-4">
+                        {/* <Award className="scale-[80%]" /> */}
+                        {details.desc}
+                      </div>
                     </div>
                   </div>
                 </Card>
