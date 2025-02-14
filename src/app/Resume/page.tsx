@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
+import { MyResume } from "../../../public/data/config";
 
 export default function Resume() {
   const [open, setOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Resume() {
       >
         <h1 className="text-7xl font-bold mb-8">Resume</h1>
         <iframe
-          src="/data/MohammadYehyaHayati_Resumev2.01.pdf"
+          src={MyResume.resumePath}
           className="w-[70%] h-screen border shadow-black shadow-2xl"
         ></iframe>
       </div>
