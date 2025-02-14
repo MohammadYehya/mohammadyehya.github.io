@@ -374,7 +374,7 @@ export const MyProjects = {
       title: "Realtime Face Recognition System",
       Logo: null,
       type: "Web Application",
-      description: "-",
+      description: "An AI-powered system for instant identity verification using deep learning. It detects and recognizes faces from live video feeds with high accuracy,",
       startDate: "",
       endDate: "Present",
       link: "",
@@ -457,7 +457,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "Oct 2024",
       endDate: "Present",
-      desc: "",
+      desc: "Developed a computer vision-based anomaly detection system with PyTorch and a real-time monitoring dashboard. Built an AI-powered sequence verification system to ensure correct assembly steps, reducing errors and improving efficiency. This minimized defects, optimized production, and enhanced Toyota’s cost-effectiveness.",
     },
     {
       logo: "/data/logos/eyeconai.png",
@@ -466,7 +466,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "July 2024",
       endDate: "Present",
-      desc: "",
+      desc: "Developed a production-ready, full-stack web application for EyeconAI using Next.js, Express.js, and FastAPI, integrating user authentication, API endpoints, and cloud deployment to ensure scalability as a SaaS product. Additionally, built and fine-tuned context-aware machine learning models with TensorFlow and PyTorch, enhancing real-time adaptability across different environments.",
     },
     {
       logo: "/data/logos/syslabai.svg",
@@ -475,7 +475,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "Dec 2023",
       endDate: "June 2024",
-      desc: "",
+      desc: "Expanded datasets using data augmentation techniques (rotation, scaling, noise addition) and preprocessing to improve AI model robustness and accuracy. Designed an intuitive Next.js and TailwindCSS-based dashboard for visualizing trends and evaluating model performance.",
     },
   ],
 };
@@ -502,16 +502,16 @@ export const MyEducations = {
     },
   ],
 };
-export const Resume = {
+export const MyResume = {
   name: "Resume",
   icon: <FileText className="scale-[60%]" />,
   href: "/Resume",
-  content: [{ title: "test" }],
+  resumePath: "/data/MohammadYehyaHayati_Resumev2.01.pdf" 
 };
 export const NavItems = {
   MySkills,
   MyProjects,
   MyExperiences,
   MyEducations,
-  Resume,
+  MyResume,
 };
