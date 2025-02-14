@@ -44,7 +44,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center w-auto">
+          <div className="flex flex-1 justify-center items-center w-auto">
             <div className="animate-flip">
               <Image
                 src={icon}
