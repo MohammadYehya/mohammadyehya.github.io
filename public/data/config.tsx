@@ -9,8 +9,8 @@ import {
 export const UserData = {
   name: "Mohammad",
   lastname: "Yehya",
-  email: 'mohammad7446@gmail.com',
-  phone: '+92335 2495576',
+  email: "mohammad7446@gmail.com",
+  phone: "+92335 2495576",
   profession: "Software Developer | Machine Learning Engineer",
   about:
     "I'm a developer who lives in Pakistan. I love learning and using different technologies. Currently, I'm working on a project with Toyota which involves context-aware anomaly detection, computer vision, and sequence verification.",
@@ -167,16 +167,20 @@ export const MySkills = {
       ],
     },
     {
-      group: 'ORM',
+      group: "ORM",
       content: [
-        {name: "DrizzleORM", imgpath: "/data/images/DrizzleORM.svg", proficiency:1}
-      ]
+        {
+          name: "DrizzleORM",
+          imgpath: "/data/images/DrizzleORM.svg",
+          proficiency: 1,
+        },
+      ],
     },
     {
-      group: 'Payment Systems',
+      group: "Payment Systems",
       content: [
-        {name: "Stripe", imgpath: "/data/images/Stripe.svg", proficiency:1}
-      ]
+        { name: "Stripe", imgpath: "/data/images/Stripe.svg", proficiency: 1 },
+      ],
     },
     {
       group: "Data Sceince & Machine Learning",
@@ -280,7 +284,8 @@ export const MyProjects = {
       ],
     },
     {
-      title: "Context-Aware Detection of Mixed Critical Events using Video Classification",
+      title:
+        "Context-Aware Detection of Mixed Critical Events using Video Classification",
       Logo: null,
       type: "Published Research",
       description:
@@ -305,7 +310,8 @@ export const MyProjects = {
       title: "Stock Price Predictor App",
       Logo: null,
       type: "Web Application",
-      description: "An application to predict the trend of a specific company's market value based on its past and current trend available on yfinance.",
+      description:
+        "An application to predict the trend of a specific company's market value based on its past and current trend available on yfinance.",
       startDate: "Mar 2024",
       endDate: "May 2024",
       link: "https://github.com/MohammadYehya/Stock-Price-Predictor-App",
@@ -340,7 +346,15 @@ export const MyProjects = {
       startDate: "",
       endDate: "Present",
       link: "",
-      tech: ["NextJS", "TailwindCSS", "ShadCN/UI", "Supabase", "DrizzleORM", "Socket.IO", "Stripe"],
+      tech: [
+        "NextJS",
+        "TailwindCSS",
+        "ShadCN/UI",
+        "Supabase",
+        "DrizzleORM",
+        "Socket.IO",
+        "Stripe",
+      ],
     },
     {
       title: "Photo Album Application",
@@ -362,7 +376,14 @@ export const MyProjects = {
       startDate: "",
       endDate: "Present",
       link: "https://github.com/MohammadYehya/ComicVault",
-      tech: ["NextJS", "TailwindCSS", "ShadCN/UI", "FastAPI", "PostgreSQL", "Selenium"],
+      tech: [
+        "NextJS",
+        "TailwindCSS",
+        "ShadCN/UI",
+        "FastAPI",
+        "PostgreSQL",
+        "Selenium",
+      ],
     },
     {
       title: "PDF Chatter",
@@ -379,7 +400,8 @@ export const MyProjects = {
       title: "Realtime Face Recognition System",
       Logo: null,
       type: "Web Application",
-      description: "An AI-powered system for instant identity verification using deep learning. It detects and recognizes faces from live video feeds with high accuracy,",
+      description:
+        "An AI-powered system for instant identity verification using deep learning. It detects and recognizes faces from live video feeds with high accuracy,",
       startDate: "",
       endDate: "Present",
       link: "",
@@ -390,26 +412,37 @@ export const MyProjects = {
       Logo: "/data/logos/CoinScope.png",
       type: "Web Application",
       description: "A realtime cryptocurrency wallet tracker.",
-      startDate: "",
-      endDate: "Present",
+      startDate: "Jan 2025",
+      endDate: "Feb 2025",
       link: "https://github.com/MohammadYehya/CoinScope",
-      tech: ["NextJS", "TailwindCSS", "Apache Kafka", "NodeJS", "Socket.IO", "WebSocket"],
+      tech: [
+        "NextJS",
+        "TailwindCSS",
+        "Apache Kafka",
+        "NodeJS",
+        "Socket.IO",
+        "WebSocket",
+        "Docker",
+        "Azure",
+      ],
     },
     {
       title: "AutoSprite",
       Logo: "/data/logos/AutoSprite.png",
       type: "Web Application",
-      description: "An AI-Based Auto Animator that takes a static sprite and auto-generates animations.",
+      description:
+        "An AI-Based Auto Animator that takes a static sprite and auto-generates animations.",
       startDate: "",
       endDate: "Present",
       link: "https://github.com/MohammadYehya/AutoSprite",
-      tech: ["NextJS", "TailwindCSS", "ShadCN/UI","Tensorflow"],
+      tech: ["NextJS", "TailwindCSS", "ShadCN/UI", "Tensorflow"],
     },
     {
       title: "Convex Hull Generator",
       Logo: null,
       type: "Web Application",
-      description: "Generates convex hulls using different algorithms. Also implemented an algorithm explained in a research paper.",
+      description:
+        "Generates convex hulls using different algorithms. Also implemented an algorithm explained in a research paper.",
       startDate: "Oct 2023",
       endDate: "Dec 2023",
       link: "https://github.com/MohammadYehya/ConvexHull_Generator",
@@ -458,7 +491,7 @@ export const MyExperiences = {
     {
       logo: "/data/logos/toyotaimc.png",
       title: "Toyota Indus Motor Company",
-      positions: ['Junior Full Stack ML Engineer'],
+      positions: ["Junior Full Stack ML Engineer"],
       location: "Karachi, Pakistan",
       startDate: "Oct 2024",
       endDate: "Present",
@@ -467,7 +500,7 @@ export const MyExperiences = {
     {
       logo: "/data/logos/eyeconai.png",
       title: "EyeconAI",
-      positions: ['Intern ML Engineer', 'Junior ML Engineer'],
+      positions: ["Intern ML Engineer", "Junior ML Engineer"],
       location: "Karachi, Pakistan",
       startDate: "July 2024",
       endDate: "Present",
@@ -476,7 +509,7 @@ export const MyExperiences = {
     {
       logo: "/data/logos/syslabai.svg",
       title: "Syslab.ai",
-      positions: ['Research Intern'],
+      positions: ["Research Intern"],
       location: "Karachi, Pakistan",
       startDate: "Dec 2023",
       endDate: "June 2024",
@@ -511,7 +544,7 @@ export const MyResume = {
   name: "Resume",
   icon: <FileText className="scale-[60%]" />,
   href: "/Resume",
-  resumePath: "/data/MohammadYehyaHayati_Resumev2.01.pdf" 
+  resumePath: "/data/MohammadYehyaHayati_Resumev2.01.pdf",
 };
 export const NavItems = {
   MySkills,
