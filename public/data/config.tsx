@@ -388,7 +388,7 @@ export const MyProjects = {
       startDate: "",
       endDate: "Present",
       link: "https://github.com/MohammadYehya/CoinScope",
-      tech: ["NextJS", "TailwindCSS", "Apache Kafka"],
+      tech: ["NextJS", "TailwindCSS", "Apache Kafka", "NodeJS", "Socket.IO"],
     },
     {
       title: "AutoSprite",
