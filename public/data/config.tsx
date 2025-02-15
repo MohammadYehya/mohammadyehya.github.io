@@ -411,7 +411,7 @@ export const MyProjects = {
       title: "CoinScope",
       Logo: "/data/logos/CoinScope.png",
       type: "Web Application",
-      description: "A realtime cryptocurrency wallet tracker.",
+      description: "CoinScope is a real-time cryptocurrency wallet tracking application. It provides users with live updates on their wallet balances, and transactions ensuring they stay informed about their crypto assets.",
       startDate: "Jan 2025",
       endDate: "Feb 2025",
       link: "https://github.com/MohammadYehya/CoinScope",
