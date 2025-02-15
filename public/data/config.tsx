@@ -106,6 +106,11 @@ export const MySkills = {
           imgpath: "/data/images/socketio.svg",
           proficiency: 1,
         },
+        {
+          name: "WebSocket",
+          imgpath: "/data/images/websocket.svg",
+          proficiency: 1,
+        },
       ],
     },
     {
@@ -388,7 +393,7 @@ export const MyProjects = {
       startDate: "",
       endDate: "Present",
       link: "https://github.com/MohammadYehya/CoinScope",
-      tech: ["NextJS", "TailwindCSS", "Apache Kafka", "NodeJS", "Socket.IO"],
+      tech: ["NextJS", "TailwindCSS", "Apache Kafka", "NodeJS", "Socket.IO", "WebSocket"],
     },
     {
       title: "AutoSprite",
