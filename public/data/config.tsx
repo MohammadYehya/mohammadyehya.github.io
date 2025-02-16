@@ -418,6 +418,7 @@ export const MyProjects = {
       tech: [
         "NextJS",
         "TailwindCSS",
+        "ShadCN/UI",
         "Apache Kafka",
         "NodeJS",
         "Socket.IO",
