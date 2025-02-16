@@ -411,7 +411,7 @@ export const MyProjects = {
       title: "CoinScope",
       Logo: "/data/logos/CoinScope.png",
       type: "Web Application",
-      description: "CoinScope is a real-time cryptocurrency wallet tracking application. It provides users with live updates on their wallet balances, and transactions ensuring they stay informed about their crypto assets.",
+      description: "CoinScope is a real-time cryptocurrency tracking application that provides updates on cryptocurrency values, helping users stay informed about market trends and price fluctuations.",
       startDate: "Jan 2025",
       endDate: "Feb 2025",
       link: "https://github.com/MohammadYehya/CoinScope",
@@ -423,7 +423,6 @@ export const MyProjects = {
         "Socket.IO",
         "WebSocket",
         "Docker",
-        "Azure",
       ],
     },
     {
