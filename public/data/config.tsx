@@ -10,7 +10,7 @@ export const UserData = {
   name: "Mohammad",
   lastname: "Yehya",
   email: "mohammad7446@gmail.com",
-  phone: "+92335 2495576",
+  phone: "+923352495576",
   profession: "Software Developer | Machine Learning Engineer",
   about:
     "I'm a developer who lives in Pakistan. I love learning and using different technologies. Currently, I'm working on a project with Toyota which involves context-aware anomaly detection, computer vision, and sequence verification.",
