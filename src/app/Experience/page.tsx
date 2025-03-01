@@ -5,6 +5,11 @@ import { CalendarClock, ChevronsRight, CirclePlus, MapPin } from "lucide-react";
 import { MyExperiences } from "../../../public/data/config";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata ={
+  title: 'Experience'
+}
 
 export default function Experience() {
   return (
