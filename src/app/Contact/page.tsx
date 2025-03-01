@@ -1,24 +1,16 @@
-"use client";
 import Navbar from "@/components/myui/Navbar";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { UserData } from "../../../public/data/config";
 import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import icon from "../favicon.ico";
 
 export default function Contact() {
-  const [open, setOpen] = useState(false);
-  useEffect(() => {
-    setOpen(true);
-  }, []);
   return (
     <>
       <Navbar />
       <div
-        className={`flex p-2 lg:px-32 lg:py-20 h-10 w-screen flex-col transition-all duration-1000 ${
-          open ? "opacity-100 " : "opacity-0 "
-        }`}
+        className={`flex p-2 lg:px-32 lg:py-20 h-10 w-screen flex-col transition-all duration-1000 animate-fadein`}
       >
         <div
           className={`flex flex-col lg:flex-row lg:justify-normal justify-center items-center`}
