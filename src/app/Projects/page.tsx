@@ -1,20 +1,12 @@
-"use client";
-import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { MyProjects, MySkills } from "../../../public/data/config";
 import { CalendarClock, Component } from "lucide-react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 export default function Projects() {
-  const [open, setOpen] = useState(false);
-  const router = useRouter();
-  useEffect(() => {
-    setOpen(true);
-  }, []);
   function getPath(skill: string) {
     return MySkills.content
       .map(
@@ -25,12 +17,10 @@ export default function Projects() {
   return (
     <div className="h-screen">
       <Navbar />
-      <ScrollArea className="h-[calc(100%-45px)]">
+      <ScrollArea className="h-[calc(100%-45px)] animate-fadein">
         <ScrollBar className="" />
         <div
-          className={`my-10 w-full flex justify-center transition-all duration-1000 ${
-            open ? "opacity-100" : "opacity-0"
-          }`}
+          className={`my-10 w-full flex justify-center transition-all duration-1000`}
         >
           <div className="flex px-4 md:px-14 justify-center flex-col">
             <h1 className="text-7xl font-bold flex justify-center mb-5">
@@ -42,9 +32,9 @@ export default function Projects() {
                   <Card
                     key={index}
                     className="flex md:flex-1 flex-col w-full md:min-w-[300px] md:max-w-[300px] p-5 hover:scale-110 hover:cursor-pointer transition-all duration-500 shadow-2xl"
-                    onClick={() => {
-                      router.push(item.link);
-                    }}
+                    // onClick={() => {
+                    //   router.push(item.link);
+                    // }}
                   >
                     {item.Logo ? (
                       <Image src={item.Logo} alt="" width={50} height={50} />
