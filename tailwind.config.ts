@@ -22,7 +22,8 @@ export default {
   			meteor: 'meteor 5s linear infinite',
 			flip: 'flipping 5s linear infinite',
 			fadein: 'fadein ease 1000ms',
-			enter: 'enter ease 1000s'
+			enterleft: 'enterleft ease 1000s',
+			enterright: 'enterright ease 1000s'
   		},
   		keyframes: {
   			meteor: {
@@ -51,14 +52,21 @@ export default {
 					opacity:'1'
 				}
 			},
-			enter:{
+			enterleft:{
 				from:{
-					transform: 'translate(var(-100%))'
+					transform: 'translateX(-100%)'
 				},
 				to:{
-					transform: 'translate(var(0px))'
+					transform: 'translateX(0px)'
 				}
-
+			},
+			enterright:{
+				from:{
+					transform: 'translateX(50%)'
+				},
+				to:{
+					transform: 'translateX(0px)'
+				}
 			}
   		}
   	}
