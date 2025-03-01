@@ -1,20 +1,14 @@
-"use client";
 import { MyExperiences, MyProjects, UserData } from "../../public/data/config";
 import img from "../../public/selfpic.png";
 import Image from "next/image";
 import { Github, Linkedin, UserSearch } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import "./globals.css";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Home() {
-  const [open, setOpen] = useState(false);
-  useEffect(() => {
-    setOpen(true);
-  }, []);
   function getCompletedProjects() {
     let x = 0;
     MyProjects.content.map((item) => {
@@ -25,20 +19,16 @@ export default function Home() {
   return (
     <div className="h-screen">
       <Navbar />
-      <ScrollArea className="h-[calc(100%-45px)]">
+      <ScrollArea className="h-[calc(100%-45px)] animate-fadein">
         <div
-          className={`flex p-2 lg:px-40 lg:py-28 h-10 w-screen flex-col transition-all duration-1000 ${
-            open ? "opacity-100 " : "opacity-0 "
-          }`}
+          className={`flex p-2 lg:px-40 lg:py-28 h-10 w-screen flex-col transition-all duration-1000`}
         >
           <div
             className={`flex flex-col lg:flex-row lg:justify-normal justify-center items-center`}
           >
             {/* Content */}
             <div
-              className={`flex flex-col lg:justify-normal justify-center items-center lg:items-start text-center lg:text-start transition-all duration-1000 ${
-                open ? " translate-x-0" : " -translate-x-full"
-              }`}
+              className={`flex flex-col lg:justify-normal justify-center items-center lg:items-start text-center lg:text-start transition-all duration-1000 animate-enterleft`}
             >
               <h1 className="text-7xl font-bold w-auto flex flex-col">
                 <div className="">
@@ -111,9 +101,7 @@ export default function Home() {
 
             {/* Image */}
             <div
-              className={`flex mt-4 transition-all duration-1000 ${
-                open ? " translate-x-0" : " translate-x-1/2"
-              }`}
+              className={`flex mt-4 transition-all duration-1000 animate-enterright`}
             >
               <Image
                 src={img}
