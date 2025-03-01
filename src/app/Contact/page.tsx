@@ -4,6 +4,11 @@ import { UserData } from "../../../public/data/config";
 import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import icon from "../favicon.ico";
+import { Metadata } from "next";
+
+export const metadata: Metadata ={
+  title: 'Contact'
+}
 
 export default function Contact() {
   return (
