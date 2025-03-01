@@ -30,8 +30,8 @@ export default function Experience() {
                 key={index}
               >
                 <Card className="flex flex-1 h-auto shadow-2xl border-slate-300 p-6 hover:scale-110 transition-all duration-500">
-                  <div className="flex flex-1">
-                    <div className="mr-4 h-[50px] flex justify-center items-center">
+                  <div className="flex">
+                    <div className="mr-4 h-[70px] min-w-[50px] max-w-[50px] flex justify-center items-center">
                       <Image
                         src={details.logo}
                         alt=""
