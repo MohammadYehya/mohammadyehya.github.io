@@ -15,8 +15,12 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Mohammad Yehya",
-  description: "Code is my canvas, and I’m painting the future!",
+  title: {
+    default: "Mohammad Yehya",
+    template: "Mohammad Yehya | %s"
+  },
+  description: "Mohammad Yehya Hayati's Portfolio Website!",
+  
 };
 
 export default function RootLayout({
