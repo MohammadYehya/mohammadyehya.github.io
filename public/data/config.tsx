@@ -480,7 +480,7 @@ export const MyExperiences = {
     {
       logo: "/data/logos/toyotaimc.png",
       title: "Toyota Indus Motor Company",
-      positions: ["Junior Full Stack ML Engineer"],
+      positions: ["Full Stack ML Engineer (Project Collaboration)"],
       location: "Karachi, Pakistan",
       startDate: "Oct 2024",
       endDate: "Present",
@@ -489,7 +489,7 @@ export const MyExperiences = {
     {
       logo: "/data/logos/eyeconai.png",
       title: "EyeconAI",
-      positions: ["Intern ML Engineer", "Junior ML Engineer"],
+      positions: ["Intern ML Engineer"],
       location: "Karachi, Pakistan",
       startDate: "Jun 2024",
       endDate: "Present",
@@ -512,20 +512,20 @@ export const MyEducations = {
   href: "/Education",
   content: [
     {
-      logo: "/data/logos/highbrow.png",
-      title: "A Levels",
-      location: "Highbrow College, Karachi, Pakistan",
-      startDate: "Aug 2019",
-      endDate: "July 2021",
-      desc: "2A*s, 3As",
-    },
-    {
       logo: "/data/logos/FAST.png",
       title: "Bachelor Degree of Computer Science",
       location: "FAST NUCES, Karachi, Pakistan",
       startDate: "Sep 2021",
       endDate: "June 2025",
       desc: "GPA 3.91/4",
+    },
+    {
+      logo: "/data/logos/highbrow.png",
+      title: "A Levels",
+      location: "Highbrow College, Karachi, Pakistan",
+      startDate: "Aug 2019",
+      endDate: "July 2021",
+      desc: "2A*s, 3As",
     },
   ],
 };
