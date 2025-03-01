@@ -44,7 +44,7 @@ export default function Experience() {
                       <div className="font-semibold text-lg mt-2 flex">
                         {details.title}
                       </div>
-                      <div className=" text-sm flex items-center">
+                      <div className=" text-sm flex flex-wrap">
                         {details.positions.map((pos, index) => (
                           <div className="flex" key={index}>
                             <div>{pos}</div>
