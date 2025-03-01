@@ -386,17 +386,6 @@ export const MyProjects = {
       ],
     },
     {
-      title: "PDF Chatter",
-      Logo: null,
-      type: "Web Application",
-      description:
-        "An application where users can upload pdfs and ask an AI chatbot about the contents.",
-      startDate: "",
-      endDate: "Present",
-      link: "",
-      tech: ["NextJS", "TailwindCSS", "MongoDB", "AWS"],
-    },
-    {
       title: "Realtime Face Recognition System",
       Logo: null,
       type: "Web Application",
