@@ -38,7 +38,7 @@ export default function Skills() {
                     return (
                       <Card
                         key={index}
-                        className={`flex flex-row justify-start lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p- h-14 hover:h-32 hover:cursor-pointer group items-center transition-all duration-300 ease-in-out overflow-clip`}
+                        className={`flex flex-row justify-start lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p- h-14 hover:h-32 group items-center transition-all duration-300 ease-in-out overflow-clip`}
                       >
                         <div className="font-bold font-mono items-start flex w-full pl-5">
                           {details.name}
