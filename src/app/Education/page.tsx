@@ -5,6 +5,11 @@ import { Separator } from "@/components/ui/separator";
 import { Award, CalendarClock, CirclePlus, MapPin } from "lucide-react";
 import Image from "next/image";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Metadata } from "next";
+
+export const metadata: Metadata ={
+  title: 'Education'
+}
 
 export default function Education() {
   return (
