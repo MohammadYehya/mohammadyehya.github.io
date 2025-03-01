@@ -1,5 +1,3 @@
-"use client";
-import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -9,19 +7,13 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import Image from "next/image";
 
 export default function Experience() {
-  const [open, setOpen] = useState(false);
-  useEffect(() => {
-    setOpen(true);
-  }, []);
   return (
     <div className="h-screen">
       <Navbar />
-      <ScrollArea className="h-[calc(100%-45px)]">
+      <ScrollArea className="h-[calc(100%-45px)] animate-fadein">
         <div className="w-full flex justify-center">
           <div
-            className={`my-10 w-full lg:w-[70%] flex flex-col justify-center items-center transition-all duration-1000 lg:gap-y-0 gap-y-3 ${
-              open ? "opacity-100" : "opacity-0"
-            }`}
+            className={`my-10 w-full lg:w-[70%] flex flex-col justify-center items-center transition-all duration-1000 lg:gap-y-0 gap-y-3`}
           >
             <h1 className="lg:text-7xl text-5xl font-bold mb-8">Experience</h1>
             {MyExperiences.content.map((details, index) => (
