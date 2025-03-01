@@ -28,7 +28,7 @@ export const MySkills = {
         { name: "C", imgpath: "/data/images/c.svg", proficiency: 1 },
         { name: "C++", imgpath: "/data/images/cpp.svg", proficiency: 1 },
         { name: "Rust", imgpath: "/data/images/rust.svg", proficiency: 1 },
-        { name: "C#", imgpath: "/data/images/csharp.svg", proficiency: 1 },
+        // { name: "C#", imgpath: "/data/images/csharp.svg", proficiency: 1 },
         { name: "Javascript", imgpath: "/data/images/js.png", proficiency: 1 },
         { name: "Typescript", imgpath: "/data/images/ts.png", proficiency: 1 },
         { name: "Python", imgpath: "/data/images/python.png", proficiency: 1 },
@@ -66,7 +66,7 @@ export const MySkills = {
           imgpath: "/data/images/bootstrap.svg",
           proficiency: 1,
         },
-        { name: "Blazor", imgpath: "/data/images/blazor.svg", proficiency: 1 },
+        // { name: "Blazor", imgpath: "/data/images/blazor.svg", proficiency: 1 },
         { name: "React", imgpath: "/data/images/react.svg", proficiency: 1 },
         { name: "NextJS", imgpath: "/data/images/nextjs.svg", proficiency: 1 },
         {
@@ -100,7 +100,7 @@ export const MySkills = {
           imgpath: "/data/images/express.png",
           proficiency: 1,
         },
-        { name: ".NET", imgpath: "/data/images/dotnet.svg", proficiency: 1 },
+        // { name: ".NET", imgpath: "/data/images/dotnet.svg", proficiency: 1 },
         {
           name: "Socket.IO",
           imgpath: "/data/images/socketio.svg",
@@ -146,7 +146,7 @@ export const MySkills = {
           imgpath: "/data/images/postgres.png",
           proficiency: 1,
         },
-        { name: "Neo4J", imgpath: "/data/images/neo4j.svg", proficiency: 1 },
+        // { name: "Neo4J", imgpath: "/data/images/neo4j.svg", proficiency: 1 },
         { name: "SQLIte", imgpath: "/data/images/sqlite.svg", proficiency: 1 },
         {
           name: "Firebase",
@@ -158,11 +158,11 @@ export const MySkills = {
           imgpath: "/data/images/Supabase.svg",
           proficiency: 1,
         },
-        {
-          name: "Pinecone",
-          imgpath: "/data/images/Pinecone.svg",
-          proficiency: 1,
-        },
+        // {
+        //   name: "Pinecone",
+        //   imgpath: "/data/images/Pinecone.svg",
+        //   proficiency: 1,
+        // },
         { name: "MySQL", imgpath: "/data/images/mysql.svg", proficiency: 1 },
       ],
     },
