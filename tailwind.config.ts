@@ -20,7 +20,9 @@ export default {
   		},
   		animation: {
   			meteor: 'meteor 5s linear infinite',
-			flip: 'flipping 5s linear infinite'
+			flip: 'flipping 5s linear infinite',
+			fadein: 'fadein ease 1000ms',
+			enter: 'enter ease 1000s'
   		},
   		keyframes: {
   			meteor: {
@@ -40,6 +42,23 @@ export default {
 				'0%': {transform: 'rotateY(0deg)'},
 				'50%': {transform: 'rotateY(90deg)'},
 				'100%': { transform: 'rotateY(0deg)' },
+			},
+			fadein:{
+				from:{
+					opacity:'0'
+				},
+				to:{
+					opacity:'1'
+				}
+			},
+			enter:{
+				from:{
+					transform: 'translate(var(-100%))'
+				},
+				to:{
+					transform: 'translate(var(0px))'
+				}
+
 			}
   		}
   	}
