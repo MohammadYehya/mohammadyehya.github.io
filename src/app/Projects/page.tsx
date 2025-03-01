@@ -5,6 +5,12 @@ import { MyProjects, MySkills } from "../../../public/data/config";
 import { CalendarClock, Component } from "lucide-react";
 import Image from "next/image";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { Metadata } from "next";
+
+export const metadata: Metadata ={
+  title: 'Projects'
+}
+
 
 export default function Projects() {
   function getPath(skill: string) {
