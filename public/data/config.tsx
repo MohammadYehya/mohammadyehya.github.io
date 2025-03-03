@@ -192,6 +192,11 @@ export const MySkills = {
           proficiency: 1,
         },
         {
+          name: "PyTorch",
+          imgpath: "/data/images/pytorch.svg",
+          proficiency: 1,
+        },
+        {
           name: "Langchain",
           imgpath: "/data/images/langchain.svg",
           proficiency: 1,
@@ -324,6 +329,25 @@ export const MyProjects = {
         "Matplotlib",
         "Scikit-Learn",
         "Keras",
+      ],
+    },
+    {
+      title: "Sealant Detection Interface",
+      Logo: null,
+      type: "Web Application",
+      description:
+        "An system made for Toyota which includes an interface that allows cameras to interact with specific AI models.",
+      startDate: "Nov 2024",
+      endDate: "Present",
+      link: "https://github.com/MohammadYehya/imc_interface",
+      tech: [
+        "NextJS",
+        "TailwindCSS",
+        "ShadCN/UI",
+        "FastAPI",
+        "PyTorch",
+        "Docker",
+        "WebSocket"
       ],
     },
     {
