@@ -73,11 +73,10 @@ export default function Projects() {
                     <Separator className="my-4" />
                     <div className="flex flex-wrap gap-2">
                       {item.tech.map((item, index) => (
-                        <HoverCard openDelay={50} closeDelay={50}>
+                        <HoverCard openDelay={50} closeDelay={50} key={index}>
                           <HoverCardTrigger asChild>
                             <div
                               className="w-10 h-10 border border-black rounded-md flex justify-center items-center hover:bg-slate-200 transition-all duration-100"
-                              key={index}
                             >
                               <Image
                                 src={`${getPath(item)}`}
