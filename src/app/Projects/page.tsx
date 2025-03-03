@@ -2,15 +2,20 @@ import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { MyProjects, MySkills } from "../../../public/data/config";
-import { CalendarClock, Component } from "lucide-react";
+import { CalendarClock, Component, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Metadata } from "next";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
+import Link from "next/link";
 
-export const metadata: Metadata ={
-  title: 'Projects'
-}
-
+export const metadata: Metadata = {
+  title: "Projects",
+};
 
 export default function Projects() {
   function getPath(skill: string) {
@@ -37,7 +42,7 @@ export default function Projects() {
                 return (
                   <Card
                     key={index}
-                    className="flex md:flex-1 flex-col w-full md:min-w-[300px] md:max-w-[300px] p-5 hover:scale-110 hover:cursor-pointer transition-all duration-500 shadow-2xl"
+                    className="flex md:flex-1 flex-col w-full md:min-w-[300px] md:max-w-[300px] p-5 hover:scale-110 transition-all duration-500 shadow-2xl"
                     // onClick={() => {
                     //   router.push(item.link);
                     // }}
@@ -47,7 +52,10 @@ export default function Projects() {
                     ) : (
                       <></>
                     )}
-                    <div className="font-bold text-lg mt-4">{item.title}</div>
+                    <div className="font-bold text-lg mt-4 flex items-center">
+                      {item.title}
+                      <Link href={item.link} className="hover:bg-slate-200 transition-all duration-100 rounded-lg ml-2"><ExternalLink className="scale-[60%]"/></Link>
+                    </div>
                     <Separator className="my-4" />
                     <div className="text-sm text-slate-500 flex items-center mb-2">
                       <Component className="scale-[70%]" />
@@ -65,17 +73,27 @@ export default function Projects() {
                     <Separator className="my-4" />
                     <div className="flex flex-wrap gap-2">
                       {item.tech.map((item, index) => (
-                        <div
-                          className="w-10 h-10 border border-black rounded-md flex justify-center items-center"
-                          key={index}
-                        >
-                          <Image
-                            src={`${getPath(item)}`}
-                            alt=""
-                            width={20}
-                            height={1}
-                          />
-                        </div>
+                        <HoverCard openDelay={50} closeDelay={50}>
+                          <HoverCardTrigger asChild>
+                            <div
+                              className="w-10 h-10 border border-black rounded-md flex justify-center items-center hover:bg-slate-200 transition-all duration-100"
+                              key={index}
+                            >
+                              <Image
+                                src={`${getPath(item)}`}
+                                alt=""
+                                width={20}
+                                height={1}
+                              />
+                            </div>
+                          </HoverCardTrigger>
+                          <HoverCardContent
+                            className="w-auto p-[2px] px-3 text-sm"
+                            side="top"
+                          >
+                            {item}
+                          </HoverCardContent>
+                        </HoverCard>
                       ))}
                     </div>
                   </Card>
