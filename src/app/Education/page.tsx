@@ -7,9 +7,9 @@ import Image from "next/image";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Metadata } from "next";
 
-export const metadata: Metadata ={
-  title: 'Education'
-}
+export const metadata: Metadata = {
+  title: "Education",
+};
 
 export default function Education() {
   return (
@@ -49,10 +49,12 @@ export default function Education() {
                       <CalendarClock className="scale-[70%]" />
                       {details.startDate} - {details.endDate}
                     </div>
-                    <div className="text-sm text-slate-500 flex items-center mb-4">
-                      <Award className="scale-[80%]" />
-                      {details.desc}
-                    </div>
+                    {details.desc && (
+                      <div className="text-sm text-slate-500 flex items-center mb-4">
+                        <Award className="scale-[80%]" />
+                        {details.desc}
+                      </div>
+                    )}
                   </div>
                 </Card>
                 <div className="lg:flex lg:flex-col items-center mx-4 hidden ">
