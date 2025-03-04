@@ -76,7 +76,7 @@ export default function Projects() {
                         <HoverCard openDelay={50} closeDelay={50} key={index}>
                           <HoverCardTrigger asChild>
                             <div
-                              className="w-10 h-10 border border-black rounded-md flex justify-center items-center hover:bg-slate-200 transition-all duration-100"
+                              className="w-10 h-10 border border-black rounded-md flex justify-center items-center hover:bg-slate-200 hover:scale-110 transition-all duration-100"
                             >
                               <Image
                                 src={`${getPath(item)}`}
