@@ -20,9 +20,10 @@ export const metadata: Metadata = {
     template: "Mohammad Yehya | %s"
   },
   description: "Mohammad Yehya Hayati's Portfolio Website!",
-  
+  verification:{
+    google: "jEKV7jviXcZq2g0MhNMmwvo9Oj8ip4LYyjOuvDfL6pY"
+  }  
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
