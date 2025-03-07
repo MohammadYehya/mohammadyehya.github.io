@@ -478,6 +478,15 @@ export const MyExperiences = {
   href: "/Experience",
   content: [
     {
+      logo: "/data/logos/imperiumdynamics.png",
+      title: "Imperium Dynamics",
+      positions: ["Software Engineer Intern"],
+      location: "Karachi, Pakistan",
+      startDate: "Apr 2025",
+      endDate: "Present",
+      desc: "",
+    },
+    {
       logo: "/data/logos/toyotaimc.png",
       title: "Toyota Indus Motor Company",
       positions: ["Junior Full Stack ML Engineer"],
