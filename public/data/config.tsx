@@ -484,7 +484,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "Apr 2025",
       endDate: "Present",
-      desc: "",
+      desc: "Contributed to the design and implementation of solutions leveraging Microsoft Power Platform and Dynamics 365 CRM which involved developing custom applications, automating business processes, and enhancing customer relationship management capabilities to streamline operations and improve user experience.",
     },
     {
       logo: "/data/logos/toyotaimc.png",
