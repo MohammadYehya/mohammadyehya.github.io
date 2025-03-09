@@ -483,7 +483,7 @@ export const MyExperiences = {
       positions: ["Software Engineer Intern"],
       location: "Karachi, Pakistan",
       startDate: "Apr 2025",
-      endDate: "Present",
+      endDate: "Jul 2025",
       desc: "Contributed to the design and implementation of solutions leveraging Microsoft Power Platform and Dynamics 365 CRM which involved developing custom applications, automating business processes, and enhancing customer relationship management capabilities to streamline operations and improve user experience.",
     },
     {
