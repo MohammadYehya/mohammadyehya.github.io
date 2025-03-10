@@ -1,5 +1,4 @@
 import Navbar from "@/components/myui/Navbar";
-import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { MyProjects, MySkills } from "../../../public/data/config";
 import { CalendarClock, Component, ExternalLink } from "lucide-react";
