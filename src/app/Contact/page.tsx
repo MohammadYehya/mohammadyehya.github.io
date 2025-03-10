@@ -14,13 +14,13 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <div
+      <main
         className={`flex p-2 lg:px-32 lg:py-20 h-10 w-screen flex-col transition-all duration-1000 animate-fadein`}
       >
         <div
           className={`flex flex-col lg:flex-row lg:justify-normal justify-center items-center`}
         >
-          <div className="lg:w-1/2 p-10">
+          <section className="lg:w-1/2 p-10">
             <p className="text-6xl lg:text-7xl font-bold">
               Impressed with my work?
             </p>
@@ -40,8 +40,8 @@ export default function Contact() {
                 {UserData.phone}
               </div>
             </div>
-          </div>
-          <div className="flex flex-1 justify-center items-center w-auto">
+          </section>
+          <section className="flex flex-1 justify-center items-center w-auto">
             <div className="animate-flip">
               <Image
                 src={icon}
@@ -52,9 +52,9 @@ export default function Contact() {
                 draggable={false}
               />
             </div>
-          </div>
+          </section>
         </div>
-      </div>
+      </main>
     </>
   );
 }
