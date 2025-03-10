@@ -15,7 +15,7 @@ export default function Skills() {
     <div className="h-screen">
       <Navbar />
       <ScrollArea className="h-[calc(100%-45px)]">
-        <div
+        <main
           className={`my-10 w-full flex justify-center transition-all duration-1000 ${
             open ? "opacity-100" : "opacity-0"
           }`}
@@ -25,7 +25,7 @@ export default function Skills() {
               Skills
             </h1>
             {MySkills.content.map((item, index) => (
-              <div className="" key={index}>
+              <section key={index}>
                 {item.content.length!=0 && (
                   <>
                     <div className="flex justify-center items-center mt-10">
@@ -64,10 +64,10 @@ export default function Skills() {
                     </div>
                   </>
                 )}
-              </div>
+              </section>
             ))}
           </div>
-        </div>
+        </main>
       </ScrollArea>
     </div>
   );
