@@ -16,13 +16,13 @@ export default function Education() {
     <div className="h-screen">
       <Navbar />
       <ScrollArea className="h-[calc(100%-45px)] animate-fadein">
-        <div className="w-full flex justify-center">
+        <main className="w-full flex justify-center">
           <div
             className={`my-10 w-full lg:w-[70%] flex flex-col justify-center items-center transition-all duration-1000 lg:gap-y-0 gap-y-3`}
           >
             <h1 className="lg:text-7xl text-5xl font-bold mb-8">Education</h1>
             {MyEducations.content.map((details, index) => (
-              <div
+              <section
                 className="flex even:flex-row odd:flex-row-reverse w-full justify-center lg:p-0 p-2"
                 key={index}
               >
@@ -69,10 +69,10 @@ export default function Education() {
                   />
                 </div>
                 <Card className="lg:flex lg:flex-1 opacity-0 hidden p-6"></Card>
-              </div>
+              </section>
             ))}
           </div>
-        </div>
+        </main>
       </ScrollArea>
     </div>
   );
