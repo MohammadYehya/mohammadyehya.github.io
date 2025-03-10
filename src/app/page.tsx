@@ -20,7 +20,7 @@ export default function Home() {
     <div className="h-screen">
       <Navbar />
       <ScrollArea className="h-[calc(100%-45px)] animate-fadein">
-        <div
+        <main
           className={`flex p-2 lg:px-40 lg:py-28 h-10 w-screen flex-col transition-all duration-1000`}
         >
           <div
@@ -110,7 +110,7 @@ export default function Home() {
               />
             </div>
           </div>
-        </div>
+        </main>
       </ScrollArea>
     </div>
   );
