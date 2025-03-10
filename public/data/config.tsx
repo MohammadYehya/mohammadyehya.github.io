@@ -477,7 +477,7 @@ export const MyProjects = {
       Logo: null,
       type: "Linux Application",
       description:
-        "An application to view used system resources as well as set priorities and processor affinities for different processes.",
+        "A multi-threaded linux application to view used system resources as well as set priorities and processor affinities for different processes by leveraging various system calls and operating system level functions.",
       startDate: "Apr 2023",
       endDate: "Jun 2023",
       link: "https://github.com/MohammadYehya/Linux_Based_Task_Manager",
