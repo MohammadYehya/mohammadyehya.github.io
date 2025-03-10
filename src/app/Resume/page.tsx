@@ -12,14 +12,14 @@ export default function Resume() {
     <div className="h-screen">
       <Navbar />
       <ScrollArea className="h-[calc(100%-45px)] animate-fadein">
-        <div
+        <main
           className={`my-10 flex flex-col w-full justify-center items-center transition-all duration-1000`}>
           <h1 className="text-7xl font-bold mb-8">Resume</h1>
           <iframe
             src={MyResume.resumePath}
             className="w-[70%] h-screen border shadow-black shadow-2xl"
           ></iframe>
-        </div>
+        </main>
       </ScrollArea>
     </div>
   );
