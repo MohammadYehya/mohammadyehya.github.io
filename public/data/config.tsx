@@ -66,9 +66,6 @@ export const MySkills = {
           imgpath: "/data/images/bootstrap.svg",
           proficiency: 1,
         },
-        { name: "Power Apps", imgpath: "/data/images/powerapps.svg", proficiency: 1 },
-        { name: "Power Pages", imgpath: "/data/images/powerpages.svg", proficiency: 1 },
-        // { name: "Blazor", imgpath: "/data/images/blazor.svg", proficiency: 1 },
         { name: "React", imgpath: "/data/images/react.svg", proficiency: 1 },
         { name: "NextJS", imgpath: "/data/images/nextjs.svg", proficiency: 1 },
         {
@@ -81,6 +78,11 @@ export const MySkills = {
           imgpath: "/data/images/shadcn.svg",
           proficiency: 1,
         },
+        // { name: "Flutter", imgpath: "/data/images/flutter.svg", proficiency: 1 },
+        // { name: "Sycamore", imgpath: "/data/images/sycamore.svg", proficiency: 1 },
+        { name: "Power Apps", imgpath: "/data/images/powerapps.svg", proficiency: 1 },
+        { name: "Power Pages", imgpath: "/data/images/powerpages.svg", proficiency: 1 },
+        // { name: "Blazor", imgpath: "/data/images/blazor.svg", proficiency: 1 },
       ],
     },
     {
@@ -96,6 +98,7 @@ export const MySkills = {
           imgpath: "/data/images/django.svg",
           proficiency: 1,
         },
+        // { name: "Actix", imgpath: "/data/images/actix.svg", proficiency: 1 },
         { name: "NodeJS", imgpath: "/data/images/node.png", proficiency: 1 },
         {
           name: "ExpressJS",
@@ -148,6 +151,7 @@ export const MySkills = {
           imgpath: "/data/images/postgres.png",
           proficiency: 1,
         },
+        // { name: "SurrealDB", imgpath: "/data/images/surrealdb.svg", proficiency: 1 },
         // { name: "Neo4J", imgpath: "/data/images/neo4j.svg", proficiency: 1 },
         { name: "SQLIte", imgpath: "/data/images/sqlite.svg", proficiency: 1 },
         { name: "Dataverse", imgpath: "/data/images/dataverse.svg", proficiency: 1 },
@@ -172,17 +176,17 @@ export const MySkills = {
     {
       group: "ORM",
       content: [
-        {
-          name: "DrizzleORM",
-          imgpath: "/data/images/DrizzleORM.svg",
-          proficiency: 1,
-        },
+        // {
+        //   name: "DrizzleORM",
+        //   imgpath: "/data/images/DrizzleORM.svg",
+        //   proficiency: 1,
+        // },
       ],
     },
     {
       group: "Payment Systems",
       content: [
-        { name: "Stripe", imgpath: "/data/images/Stripe.svg", proficiency: 1 },
+        // { name: "Stripe", imgpath: "/data/images/Stripe.svg", proficiency: 1 },
       ],
     },
     {
@@ -240,6 +244,9 @@ export const MySkills = {
         { name: "Poetry", imgpath: "/data/images/poetry.svg", proficiency: 1 },
         { name: "NPM", imgpath: "/data/images/npm.svg", proficiency: 1 },
         { name: "JWT", imgpath: "/data/images/jwt.svg", proficiency: 1 },
+        // { name: "Celery", imgpath: "/data/images/celery.svg", proficiency: 1 },
+        // { name: "ElectronJS", imgpath: "/data/images/electron.png", proficiency: 1 },
+        // { name: "Tauri", imgpath: "/data/images/Tauri.svg", proficiency: 1 },
         {
           name: "Postman",
           imgpath: "/data/images/postman.svg",
