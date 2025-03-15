@@ -128,6 +128,7 @@ export const MySkills = {
           imgpath: "/data/images/gcp.svg",
           proficiency: 1,
         },
+        { name: "Terraform", imgpath: "/data/images/terraform.svg", proficiency: 1 },
         {
           name: "Github Actions",
           imgpath: "/data/images/githubactions.svg",
