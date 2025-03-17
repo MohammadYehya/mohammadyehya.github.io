@@ -129,6 +129,7 @@ export const MySkills = {
           proficiency: 1,
         },
         { name: "Terraform", imgpath: "/data/images/terraform.svg", proficiency: 1 },
+        { name: "Kubernetes", imgpath: "/data/images/kubernetes.svg", proficiency: 1 },
         {
           name: "Github Actions",
           imgpath: "/data/images/githubactions.svg",
