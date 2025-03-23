@@ -248,7 +248,7 @@ export const MySkills = {
         { name: "JWT", imgpath: "/data/images/jwt.svg", proficiency: 1 },
         // { name: "Celery", imgpath: "/data/images/celery.svg", proficiency: 1 },
         // { name: "ElectronJS", imgpath: "/data/images/electron.png", proficiency: 1 },
-        // { name: "Tauri", imgpath: "/data/images/Tauri.svg", proficiency: 1 },
+        { name: "Tauri", imgpath: "/data/images/Tauri.svg", proficiency: 1 },
         {
           name: "Postman",
           imgpath: "/data/images/postman.svg",
