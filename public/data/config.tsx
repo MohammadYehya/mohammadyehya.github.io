@@ -508,7 +508,7 @@ export const MyProjects = {
       Logo: null,
       type: "CLI Application",
       description:
-        "a simple 2048 replica made on CLI using MASM 8086. Some features include a main menu and movement of the numbers using arrow keys.",
+        "A simple 2048 replica made on CLI using MASM 8086. Some features include a main menu and movement of the numbers using arrow keys.",
       startDate: "Oct 2022",
       endDate: "Dec 2022",
       link: "https://github.com/MohammadYehya/Assembly_2048",
