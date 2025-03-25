@@ -192,7 +192,7 @@ export const MySkills = {
       ],
     },
     {
-      group: "Data Sceince & Machine Learning",
+      group: "Data Science & Machine Learning",
       content: [
         { name: "Keras", imgpath: "/data/images/keras.svg", proficiency: 1 },
         {
