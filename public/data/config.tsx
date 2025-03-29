@@ -28,7 +28,7 @@ export const MySkills = {
         { name: "C", imgpath: "/data/images/c.svg", proficiency: 1 },
         { name: "C++", imgpath: "/data/images/cpp.svg", proficiency: 1 },
         { name: "Rust", imgpath: "/data/images/rust.svg", proficiency: 1 },
-        // { name: "C#", imgpath: "/data/images/csharp.svg", proficiency: 1 },
+        { name: "C#", imgpath: "/data/images/csharp.svg", proficiency: 1 },
         { name: "Javascript", imgpath: "/data/images/js.png", proficiency: 1 },
         { name: "Typescript", imgpath: "/data/images/ts.png", proficiency: 1 },
         { name: "Python", imgpath: "/data/images/python.png", proficiency: 1 },
