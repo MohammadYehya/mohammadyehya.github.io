@@ -227,6 +227,7 @@ export const MySkills = {
         { name: "Scipy", imgpath: "/data/images/scipy.svg", proficiency: 1 },
         { name: "OpenCV", imgpath: "/data/images/opencv.svg", proficiency: 1 },
         // { name: "Copilot Studio", imgpath: "/data/images/copilotstudio.svg", proficiency: 1 },
+        // { name: "AI Builder", imgpath: "/data/images/aibuilder.svg", proficiency: 1 },
       ],
     },
     {
