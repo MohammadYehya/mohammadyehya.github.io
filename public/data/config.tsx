@@ -42,6 +42,7 @@ export const MySkills = {
           imgpath: "/data/images/bash.svg",
           proficiency: 1,
         },
+        { name: "PowerFX", imgpath: "/data/images/powerfx.svg", proficiency: 1 },
       ],
     },
     {
