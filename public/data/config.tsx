@@ -221,6 +221,7 @@ export const MySkills = {
           imgpath: "/data/images/matplotlib.svg",
           proficiency: 1,
         },
+        { name: "Seaborn", imgpath: "/data/images/seaborn.svg", proficiency: 1 },
         { name: "Power Bi", imgpath: "/data/images/powerbi.svg", proficiency: 1 },
         { name: "Numpy", imgpath: "/data/images/numpy.svg", proficiency: 1 },
         { name: "Pandas", imgpath: "/data/images/pandas.svg", proficiency: 1 },
