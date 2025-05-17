@@ -271,6 +271,7 @@ export const MySkills = {
         { name: "SDL", imgpath: "/data/images/SDL.svg", proficiency: 1 },
         { name: "OpenGL", imgpath: "/data/images/opengl.svg", proficiency: 1 },
         { name: "Unity", imgpath: "/data/images/Unity.svg", proficiency: 1 },
+        { name: "Blender", imgpath: "/data/images/blender.svg", proficiency: 1 },
         { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         { name: "Glade", imgpath: "/data/images/glade.svg", proficiency: 1 },
         { name: "GTK", imgpath: "/data/images/gtk.svg", proficiency: 1 },
