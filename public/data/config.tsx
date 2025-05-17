@@ -428,7 +428,7 @@ export const MyProjects = {
       description:
         "An in-depth data analysis and notebook that allows users to set a tournament or select two tennis players and predict the match winner based on historical data, player statistics, and advanced machine learning models.",
       startDate: "Feb 2025",
-      endDate: "Mar 2025",
+      endDate: "May 2025",
       link: "https://github.com/MohammadYehya/TennisPredict",
       tech: ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-Learn", "Tensorflow", "Keras"],
     },
