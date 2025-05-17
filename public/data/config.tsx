@@ -422,6 +422,17 @@ export const MyProjects = {
       tech: ["NextJS", "TailwindCSS", "ShadCN/UI", "Supabase"],
     },
     {
+      title: "TennisPredict",
+      Logo: null,
+      type: "Analytical & Predictive Study",
+      description:
+        "An in-depth data analysis and notebook that allows users to set a tournament or select two tennis players and predict the match winner based on historical data, player statistics, and advanced machine learning models.",
+      startDate: "Feb 2025",
+      endDate: "Mar 2025",
+      link: "https://github.com/MohammadYehya/TennisPredict",
+      tech: ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-Learn", "Tensorflow", "Keras"],
+    },
+    {
       title: "ComicVault",
       Logo: "/data/logos/ComicVault.png",
       type: "Web Application",
