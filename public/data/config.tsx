@@ -374,6 +374,20 @@ export const MyProjects = {
       ],
     },
     {
+      title: "TacticalTreats",
+      Logo: null,
+      type: "Game",
+      description:
+        "TacticalTreats is a Unity-based game that combines strategic planning with immersive gameplay.",
+      startDate: "Jan 2025",
+      endDate: "May 2025",
+      link: "https://github.com/MohammadYehya/TacticalTreats",
+      tech: [
+        "Unity",
+        "Blender"
+      ],
+    },
+    {
       title: "Quantum Edge Detection",
       Logo: null,
       type: "Research",
