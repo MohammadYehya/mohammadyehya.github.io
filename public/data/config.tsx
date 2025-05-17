@@ -360,7 +360,7 @@ export const MyProjects = {
       description:
         "An system made for Toyota which includes an interface that allows cameras to interact with specific AI models.",
       startDate: "Nov 2024",
-      endDate: "Present",
+      endDate: "May 2025",
       link: "https://github.com/MohammadYehya/imc_interface",
       tech: [
         "NextJS",
