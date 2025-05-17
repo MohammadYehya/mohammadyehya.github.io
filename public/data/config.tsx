@@ -548,7 +548,7 @@ export const MyExperiences = {
       positions: ["Intern ML Engineer"],
       location: "Karachi, Pakistan",
       startDate: "Jun 2024",
-      endDate: "Present",
+      endDate: "Sep 2024",
       desc: "Developed a production-ready, full-stack web application for EyeconAI using Next.js, Express.js, and FastAPI, integrating user authentication, API endpoints, and cloud deployment to ensure scalability as a SaaS product. Additionally, built and fine-tuned context-aware machine learning models with TensorFlow and PyTorch, enhancing real-time adaptability across different environments.",
     },
     {
