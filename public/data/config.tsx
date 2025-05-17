@@ -13,7 +13,7 @@ export const UserData = {
   phone: "+923352495576",
   profession: "Software Developer | Machine Learning Engineer",
   about:
-    "I'm a developer who lives in Pakistan. I love learning and using different technologies. Currently, I'm working on a project with Toyota which involves context-aware anomaly detection, computer vision, and sequence verification.",
+    "I'm a developer who lives in Pakistan. I love learning and using different technologies as well as enjoy working on impactful, end-to-end solutions—especially those that combine AI, system design, and real-world problem solving.",
   github: "https://github.com/MohammadYehya",
   linkedin: "https://www.linkedin.com/in/mohammad-yehya/",
 };
