@@ -539,7 +539,7 @@ export const MyExperiences = {
       positions: ["Full Stack ML Engineer (Project Collaboration)"],
       location: "Karachi, Pakistan",
       startDate: "Oct 2024",
-      endDate: "Present",
+      endDate: "May 2025",
       desc: "Developed a computer vision-based anomaly detection system with PyTorch and a real-time monitoring dashboard. Built an AI-powered sequence verification system to ensure correct assembly steps, reducing errors and improving efficiency. This minimized defects, optimized production, and enhanced Toyota’s cost-effectiveness.",
     },
     {
