@@ -609,7 +609,7 @@ export const MyEducations = {
       location: "FAST NUCES, Karachi, Pakistan",
       startDate: "Sep 2021",
       endDate: "Jun 2025",
-      desc: "GPA 3.91/4",
+      desc: "GPA 3.9/4",
     },
     {
       logo: "/data/logos/highbrow.png",
