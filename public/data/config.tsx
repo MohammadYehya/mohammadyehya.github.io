@@ -558,7 +558,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "Jul 2025",
       endDate: "Present",
-      desc: " I collaborated with clients to gather business requirements, assisted in designing and implementing enterprise solutions supported testing activities, coordinating with cross-functional teams, and occasionally participated in data analysis and migration efforts.",
+      desc: "I collaborated with clients to gather business requirements, assisted in designing and implementing enterprise solutions supported testing activities, coordinated with cross-functional teams, and occasionally participated in data analysis and migration efforts.",
     },
     {
       logo: "/data/logos/imperiumdynamics.png",
