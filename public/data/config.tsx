@@ -552,6 +552,15 @@ export const MyExperiences = {
   href: "/Experience",
   content: [
     {
+      logo: "/data/logos/SystemsLimited.svg",
+      title: "Systems Limited",
+      positions: ["Associate Consultant"],
+      location: "Karachi, Pakistan",
+      startDate: "Jul 2025",
+      endDate: "Present",
+      desc: " I collaborated with clients to gather business requirements, assisted in designing and implementing enterprise solutions supported testing activities, coordinating with cross-functional teams, and occasionally participated in data analysis and migration efforts.",
+    },
+    {
       logo: "/data/logos/imperiumdynamics.png",
       title: "Imperium Dynamics",
       positions: ["Software Engineer Intern"],
