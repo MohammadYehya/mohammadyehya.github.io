@@ -41,7 +41,7 @@ export default function Projects() {
                 return (
                   <section
                     key={index}
-                    className="flex md:flex-1 flex-col w-full h-auto md:min-w-[300px] md:max-w-[300px] p-5 hover:scale-110 transition-all duration-500 shadow-2xl rounded-xl border border-neutral-200 bg-white text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"
+                    className="flex md:flex-1 flex-col w-full h-auto md:min-w-[300px] md:max-w-[300px] p-5 hover:scale-110 hover:z-10 transition-all duration-500 shadow-2xl rounded-xl border border-neutral-200 bg-white text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"
                   >
                       {item.Logo ? (
                         <Image src={item.Logo} alt="" width={50} height={50} />
