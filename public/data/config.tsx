@@ -168,6 +168,7 @@ export const MySkills = {
           imgpath: "/data/images/Supabase.svg",
           proficiency: 1,
         },
+        { name: "ChromaDB", imgpath: "/data/images/chromadb.svg", proficiency: 1 },
         // {
         //   name: "Pinecone",
         //   imgpath: "/data/images/Pinecone.svg",
