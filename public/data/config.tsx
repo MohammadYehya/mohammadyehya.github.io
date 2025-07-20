@@ -193,7 +193,7 @@ export const MySkills = {
       ],
     },
     {
-      group: "Data Science & Machine Learning",
+      group: "Data Science & Artificial Intelligence",
       content: [
         { name: "Keras", imgpath: "/data/images/keras.svg", proficiency: 1 },
         {
@@ -209,6 +209,31 @@ export const MySkills = {
         {
           name: "Langchain",
           imgpath: "/data/images/langchain.svg",
+          proficiency: 1,
+        },
+        {
+          name: "LangGraph",
+          imgpath: "/data/images/langgraph.svg",
+          proficiency: 1,
+        },
+        {
+          name: "LangSmith",
+          imgpath: "/data/images/langsmith.svg",
+          proficiency: 1,
+        },
+        {
+          name: "MCP",
+          imgpath: "/data/images/mcp.svg",
+          proficiency: 1,
+        },
+        {
+          name: "CrewAI",
+          imgpath: "/data/images/crewai.svg",
+          proficiency: 1,
+        },
+        {
+          name: "n8n",
+          imgpath: "/data/images/n8n.svg",
           proficiency: 1,
         },
         {
@@ -558,7 +583,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "Jul 2025",
       endDate: "Present",
-      desc: "Collaborated with clients to gather business requirements, assisted in designing and implementing enterprise solutions supported testing activities, coordinated with cross-functional teams, and occasionally participated in data analysis and migration efforts.",
+      desc: "I collaborated with clients to gather business requirements, assisted in designing and implementing enterprise solutions supported testing activities, coordinated with cross-functional teams, participated in data analysis and migration efforts, and occasionally assisted with pre-sales support and project planning.",
     },
     {
       logo: "/data/logos/imperiumdynamics.png",
@@ -609,7 +634,7 @@ export const MyEducations = {
       location: "FAST NUCES, Karachi, Pakistan",
       startDate: "Sep 2021",
       endDate: "Jun 2025",
-      desc: "GPA 3.9/4",
+      desc: "GPA 3.91/4",
     },
     {
       logo: "/data/logos/highbrow.png",
