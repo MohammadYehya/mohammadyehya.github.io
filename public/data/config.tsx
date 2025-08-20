@@ -348,7 +348,7 @@ export const MyProjects = {
       startDate: "Feb 2024",
       endDate: "Dec 2024",
       link: "https://arxiv.org/abs/2411.15773v1",
-      tech: ["Python", "Tensorflow", "Keras", "Numpy", "Scikit-Learn"],
+      tech: ["Python", "Tensorflow", "Keras", "Numpy", "Scikit-Learn", "LaTeX"],
     },
     {
       title: "GridForge",
