@@ -276,7 +276,6 @@ export const MySkills = {
         { name: "OpenGL", imgpath: "/data/images/opengl.svg", proficiency: 1 },
         { name: "Unity", imgpath: "/data/images/Unity.svg", proficiency: 1 },
         { name: "Blender", imgpath: "/data/images/blender.svg", proficiency: 1 },
-        { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         { name: "Glade", imgpath: "/data/images/glade.svg", proficiency: 1 },
         { name: "GTK", imgpath: "/data/images/gtk.svg", proficiency: 1 },
         { name: "QT", imgpath: "/data/images/qt.svg", proficiency: 1 },
@@ -285,6 +284,7 @@ export const MySkills = {
     {
       group: "Others",
       content: [
+        { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         { name: "CMake", imgpath: "/data/images/cmake.svg", proficiency: 1 },
         { name: "Poetry", imgpath: "/data/images/poetry.svg", proficiency: 1 },
         { name: "NPM", imgpath: "/data/images/npm.svg", proficiency: 1 },
