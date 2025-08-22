@@ -223,6 +223,16 @@ export const MySkills = {
           proficiency: 1,
         },
         {
+          name: "LangFlow",
+          imgpath: "/data/images/langflow.svg",
+          proficiency: 1,
+        },
+        {
+          name: "n8n",
+          imgpath: "/data/images/n8n.svg",
+          proficiency: 1,
+        },
+        {
           name: "MCP",
           imgpath: "/data/images/mcp.svg",
           proficiency: 1,
@@ -230,11 +240,6 @@ export const MySkills = {
         {
           name: "CrewAI",
           imgpath: "/data/images/crewai.svg",
-          proficiency: 1,
-        },
-        {
-          name: "n8n",
-          imgpath: "/data/images/n8n.svg",
           proficiency: 1,
         },
         {
@@ -284,14 +289,15 @@ export const MySkills = {
     {
       group: "Others",
       content: [
-        { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         { name: "CMake", imgpath: "/data/images/cmake.svg", proficiency: 1 },
         { name: "Poetry", imgpath: "/data/images/poetry.svg", proficiency: 1 },
+        { name: "UV", imgpath: "/data/images/uv.svg", proficiency: 1 },
         { name: "NPM", imgpath: "/data/images/npm.svg", proficiency: 1 },
         { name: "JWT", imgpath: "/data/images/jwt.svg", proficiency: 1 },
         // { name: "Celery", imgpath: "/data/images/celery.svg", proficiency: 1 },
         // { name: "ElectronJS", imgpath: "/data/images/electron.png", proficiency: 1 },
         { name: "Tauri", imgpath: "/data/images/Tauri.svg", proficiency: 1 },
+        { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         {
           name: "Postman",
           imgpath: "/data/images/postman.svg",
