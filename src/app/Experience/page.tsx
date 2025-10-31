@@ -1,15 +1,20 @@
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { CalendarClock, ChevronsRight, CirclePlus, MapPin } from "lucide-react";
+import {
+  CalendarClock,
+  CircleChevronRight,
+  CirclePlus,
+  User,
+} from "lucide-react";
 import { MyExperiences } from "../../../public/data/config";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Image from "next/image";
 import { Metadata } from "next";
 
-export const metadata: Metadata ={
-  title: 'Experience'
-}
+export const metadata: Metadata = {
+  title: "Experience",
+};
 
 export default function Experience() {
   return (
@@ -41,7 +46,12 @@ export default function Experience() {
                       <div className="font-semibold text-lg mt-2 flex">
                         {details.title}
                       </div>
-                      <div className=" text-sm flex flex-wrap">
+                      <div className="text-sm flex items-center mb-2">
+                        {/* <MapPin className="scale-[70%]" /> */}
+                        {details.location}
+                      </div>
+                      <Separator className="mt-1 mb-3" />
+                      {/* <div className=" text-sm flex flex-wrap">
                         {details.positions.map((pos, index) => (
                           <div className="flex" key={index}>
                             <div>{pos}</div>
@@ -54,20 +64,32 @@ export default function Experience() {
                             />
                           </div>
                         ))}
-                      </div>
-                      <Separator className="mt-1 mb-3" />
-                      <div className="text-sm text-slate-500 flex items-center mb-2">
-                        <MapPin className="scale-[70%]" />
-                        {details.location}
-                      </div>
-                      <div className="text-sm text-slate-500 flex items-center mb-4">
-                        <CalendarClock className="scale-[70%]" />
-                        {details.startDate} - {details.endDate}
-                      </div>
-                      <div className="text-sm text-slate-500 flex items-center mb-4">
-                        {/* <Award className="scale-[80%]" /> */}
-                        {details.desc}
-                      </div>
+                      </div> */}
+                      {details.positions
+                        .map((item, i) => (
+                          <div key={item} className="flex">
+                            <div className={`flex flex-col items-center text-slate-500 w-1 ${(details.positions.length === 1)? "hidden":""} -translate-x-[1000%]`}>
+                              <Separator orientation="vertical" className="flex flex-2"/>
+                              <CircleChevronRight className="scale-[200%] text-slate-400"/>
+                              <Separator orientation="vertical" className="flex flex-2"/>
+                            </div>
+                            <div>
+                              <div className="text-sm text-slate-500 flex items-center">
+                                <User className="scale-[70%]" />
+                                {item}
+                              </div>
+                              <div className="text-sm text-slate-500 flex items-center mb-2">
+                                <CalendarClock className="scale-[70%]" />
+                                {details.dates[i]} - {details.dates[i + 1]}
+                              </div>
+                              <div className={`text-sm text-slate-500 flex items-center ${(i === 0) ? "mb-2": "mb-8"}`}>
+                                {/* <Award className="scale-[80%]" /> */}
+                                {details.desc[i]}
+                              </div>
+                            </div>
+                          </div>
+                        ))
+                        .reverse()}
                     </div>
                   </div>
                 </Card>
