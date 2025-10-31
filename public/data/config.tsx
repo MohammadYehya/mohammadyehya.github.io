@@ -28,21 +28,27 @@ export const MySkills = {
         { name: "C", imgpath: "/data/images/c.svg", proficiency: 1 },
         { name: "C++", imgpath: "/data/images/cpp.svg", proficiency: 1 },
         { name: "Rust", imgpath: "/data/images/rust.svg", proficiency: 1 },
-        { name: "C#", imgpath: "/data/images/csharp.svg", proficiency: 1 },
+        // { name: "Go", imgpath: "/data/images/go.svg", proficiency: 1 },
         { name: "Javascript", imgpath: "/data/images/js.png", proficiency: 1 },
         { name: "Typescript", imgpath: "/data/images/ts.png", proficiency: 1 },
         { name: "Python", imgpath: "/data/images/python.png", proficiency: 1 },
+        { name: "C#", imgpath: "/data/images/csharp.svg", proficiency: 1 },
+        // { name: "Dart", imgpath: "/data/images/dart.png", proficiency: 1 },
         {
           name: "Assembly Script",
           imgpath: "/data/images/assembly.svg",
           proficiency: 1,
         },
         {
-          name: "Shell Script",
+          name: "Bash",
           imgpath: "/data/images/bash.svg",
           proficiency: 1,
         },
-        { name: "PowerFX", imgpath: "/data/images/powerfx.svg", proficiency: 1 },
+        {
+          name: "PowerFX",
+          imgpath: "/data/images/powerfx.svg",
+          proficiency: 1,
+        },
       ],
     },
     {
@@ -79,10 +85,28 @@ export const MySkills = {
           imgpath: "/data/images/shadcn.svg",
           proficiency: 1,
         },
+        {
+          name: "ThreeJS",
+          imgpath: "/data/images/ThreeJS.svg",
+          proficiency: 1,
+        },
+        // {
+        //   name: "React Three Fiber",
+        //   imgpath: "/data/images/",
+        //   proficiency: 1,
+        // },
         // { name: "Flutter", imgpath: "/data/images/flutter.svg", proficiency: 1 },
         // { name: "Sycamore", imgpath: "/data/images/sycamore.svg", proficiency: 1 },
-        { name: "Power Apps", imgpath: "/data/images/powerapps.svg", proficiency: 1 },
-        { name: "Power Pages", imgpath: "/data/images/powerpages.svg", proficiency: 1 },
+        {
+          name: "Power Apps",
+          imgpath: "/data/images/powerapps.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Power Pages",
+          imgpath: "/data/images/powerpages.svg",
+          proficiency: 1,
+        },
         // { name: "Blazor", imgpath: "/data/images/blazor.svg", proficiency: 1 },
       ],
     },
@@ -99,6 +123,11 @@ export const MySkills = {
           imgpath: "/data/images/django.svg",
           proficiency: 1,
         },
+        // {
+        //   name: "Flask",
+        //   imgpath: "/data/images/flask.svg",
+        //   proficiency: 1,
+        // },
         // { name: "Actix", imgpath: "/data/images/actix.svg", proficiency: 1 },
         { name: "NodeJS", imgpath: "/data/images/node.png", proficiency: 1 },
         {
@@ -129,8 +158,16 @@ export const MySkills = {
           imgpath: "/data/images/gcp.svg",
           proficiency: 1,
         },
-        { name: "Terraform", imgpath: "/data/images/terraform.svg", proficiency: 1 },
-        { name: "Kubernetes", imgpath: "/data/images/kubernetes.svg", proficiency: 1 },
+        {
+          name: "Terraform",
+          imgpath: "/data/images/terraform.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Kubernetes",
+          imgpath: "/data/images/kubernetes.svg",
+          proficiency: 1,
+        },
         {
           name: "Github Actions",
           imgpath: "/data/images/githubactions.svg",
@@ -139,6 +176,11 @@ export const MySkills = {
         { name: "Docker", imgpath: "/data/images/docker.svg", proficiency: 1 },
         { name: "Vercel", imgpath: "/data/images/vercel.svg", proficiency: 1 },
         { name: "Nginx", imgpath: "/data/images/nginx.svg", proficiency: 1 },
+        {
+          name: "Spaceship",
+          imgpath: "/data/images/spaceship.png",
+          proficiency: 1,
+        },
       ],
     },
     {
@@ -156,8 +198,13 @@ export const MySkills = {
         },
         // { name: "SurrealDB", imgpath: "/data/images/surrealdb.svg", proficiency: 1 },
         // { name: "Neo4J", imgpath: "/data/images/neo4j.svg", proficiency: 1 },
+        { name: "Redis", imgpath: "/data/images/redis.svg", proficiency: 1 },
         { name: "SQLIte", imgpath: "/data/images/sqlite.svg", proficiency: 1 },
-        { name: "Dataverse", imgpath: "/data/images/dataverse.svg", proficiency: 1 },
+        {
+          name: "Dataverse",
+          imgpath: "/data/images/dataverse.svg",
+          proficiency: 1,
+        },
         {
           name: "Firebase",
           imgpath: "/data/images/firebase.png",
@@ -168,7 +215,12 @@ export const MySkills = {
           imgpath: "/data/images/Supabase.svg",
           proficiency: 1,
         },
-        { name: "ChromaDB", imgpath: "/data/images/chromadb.svg", proficiency: 1 },
+        { name: "Nhost", imgpath: "/data/images/Nhost.svg", proficiency: 1 },
+        {
+          name: "ChromaDB",
+          imgpath: "/data/images/chromadb.svg",
+          proficiency: 1,
+        },
         // {
         //   name: "Pinecone",
         //   imgpath: "/data/images/Pinecone.svg",
@@ -208,7 +260,7 @@ export const MySkills = {
           proficiency: 1,
         },
         {
-          name: "Langchain",
+          name: "LangChain",
           imgpath: "/data/images/langchain.svg",
           proficiency: 1,
         },
@@ -243,6 +295,11 @@ export const MySkills = {
           proficiency: 1,
         },
         {
+          name: "Ollama",
+          imgpath: "/data/images/ollama.svg",
+          proficiency: 1,
+        },
+        {
           name: "Scikit-Learn",
           imgpath: "/data/images/scikit-learn.svg",
           proficiency: 1,
@@ -252,8 +309,16 @@ export const MySkills = {
           imgpath: "/data/images/matplotlib.svg",
           proficiency: 1,
         },
-        { name: "Seaborn", imgpath: "/data/images/seaborn.svg", proficiency: 1 },
-        { name: "Power Bi", imgpath: "/data/images/powerbi.svg", proficiency: 1 },
+        {
+          name: "Seaborn",
+          imgpath: "/data/images/seaborn.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Power Bi",
+          imgpath: "/data/images/powerbi.svg",
+          proficiency: 1,
+        },
         { name: "Numpy", imgpath: "/data/images/numpy.svg", proficiency: 1 },
         { name: "Pandas", imgpath: "/data/images/pandas.svg", proficiency: 1 },
         { name: "Scipy", imgpath: "/data/images/scipy.svg", proficiency: 1 },
@@ -270,8 +335,17 @@ export const MySkills = {
           imgpath: "/data/images/selenium.svg",
           proficiency: 1,
         },
+        {
+          name: "Postman",
+          imgpath: "/data/images/postman.svg",
+          proficiency: 1,
+        },
         { name: "ESLint", imgpath: "/data/images/eslint.svg", proficiency: 1 },
-        { name: "Power Automate", imgpath: "/data/images/powerautomate.svg", proficiency: 1 },
+        {
+          name: "Power Automate",
+          imgpath: "/data/images/powerautomate.svg",
+          proficiency: 1,
+        },
       ],
     },
     {
@@ -280,10 +354,14 @@ export const MySkills = {
         { name: "SDL", imgpath: "/data/images/SDL.svg", proficiency: 1 },
         { name: "OpenGL", imgpath: "/data/images/opengl.svg", proficiency: 1 },
         { name: "Unity", imgpath: "/data/images/Unity.svg", proficiency: 1 },
-        { name: "Blender", imgpath: "/data/images/blender.svg", proficiency: 1 },
+        {
+          name: "Blender",
+          imgpath: "/data/images/blender.svg",
+          proficiency: 1,
+        },
         { name: "Glade", imgpath: "/data/images/glade.svg", proficiency: 1 },
         { name: "GTK", imgpath: "/data/images/gtk.svg", proficiency: 1 },
-        { name: "QT", imgpath: "/data/images/qt.svg", proficiency: 1 },
+        { name: "Qt", imgpath: "/data/images/qt.svg", proficiency: 1 },
       ],
     },
     {
@@ -299,11 +377,6 @@ export const MySkills = {
         { name: "Tauri", imgpath: "/data/images/Tauri.svg", proficiency: 1 },
         { name: "Qiskit", imgpath: "/data/images/qiskit.svg", proficiency: 1 },
         {
-          name: "Postman",
-          imgpath: "/data/images/postman.svg",
-          proficiency: 1,
-        },
-        {
           name: "Swagger",
           imgpath: "/data/images/swagger.svg",
           proficiency: 1,
@@ -316,7 +389,36 @@ export const MySkills = {
         { name: "Cuda", imgpath: "/data/images/cuda.svg", proficiency: 1 },
         { name: "Canva", imgpath: "/data/images/canva.svg", proficiency: 1 },
         { name: "Figma", imgpath: "/data/images/figma.svg", proficiency: 1 },
-        { name: "Redis", imgpath: "/data/images/redis.svg", proficiency: 1 },
+        {
+          name: "Hyprland",
+          imgpath: "/data/images/Hyprland.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Quickshell",
+          imgpath: "/data/images/Quickshell.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Arduino",
+          imgpath: "/data/images/Arduino.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Arch Linux",
+          imgpath: "/data/images/Arch Linux.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Premiere",
+          imgpath: "/data/images/premiere.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Overleaf",
+          imgpath: "/data/images/overleaf.svg",
+          proficiency: 1,
+        },
         {
           name: "Apache Kafka",
           imgpath: "/data/images/kafka.svg",
@@ -360,6 +462,39 @@ export const MyProjects = {
       endDate: "Dec 2024",
       link: "https://arxiv.org/abs/2411.15773v1",
       tech: ["Python", "Tensorflow", "Keras", "Numpy", "Scikit-Learn", "LaTeX"],
+    },
+    {
+      title: "RFPAnalyzer",
+      Logo: null,
+      type: "Web Application",
+      description:
+        "An AI-driven platform that automates and enhances the analysis of Requests for Proposals (RFPs).",
+      startDate: "Oct 2025",
+      endDate: "Present",
+      link: "",
+      tech: ["NextJS", "ShadCN/UI", "FastAPI", "WebSocket", "Redis", "Docker", "Azure", "Python", "LangChain", "LangGraph", "MCP"],
+    },
+    {
+      title: "VoltOS",
+      Logo: "/data/logos/VoltOS.png",
+      type: "Linux Distribution",
+      description:
+        "A configured Linux distribution based on Arch Linux with a custom quickshell setup along with various scripts to enhance user experience.",
+      startDate: "Nov 2025",
+      endDate: "Present",
+      link: "https://github.com/volt-os",
+      tech: [
+        "Arch Linux",
+        "Hyprland",
+        "Qt",
+        "Quickshell",
+        "Bash",
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "MCP",
+        "Ollama",
+      ],
     },
     {
       title: "GridForge",
@@ -412,6 +547,17 @@ export const MyProjects = {
       ],
     },
     {
+      title: "Graphite",
+      Logo: "/data/logos/Graphite.png",
+      type: "Web Application",
+      description:
+        "Graphite is an AI-powered diagramming tool that transforms text prompts into detailed diagrams, enhancing visual communication and idea representation.",
+      startDate: "",
+      endDate: "Present",
+      link: "https://github.com/graphite-click",
+      tech: [],
+    },
+    {
       title: "TacticalTreats",
       Logo: null,
       type: "Game",
@@ -420,10 +566,7 @@ export const MyProjects = {
       startDate: "Jan 2025",
       endDate: "May 2025",
       link: "https://github.com/MohammadYehya/TacticalTreats",
-      tech: [
-        "Unity",
-        "Blender"
-      ],
+      tech: ["Unity", "Blender"],
     },
     {
       title: "Quantum Edge Detection",
@@ -467,7 +610,15 @@ export const MyProjects = {
       startDate: "Feb 2025",
       endDate: "May 2025",
       link: "https://github.com/MohammadYehya/TennisPredict",
-      tech: ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-Learn", "Tensorflow", "Keras"],
+      tech: [
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-Learn",
+        "Tensorflow",
+        "Keras",
+      ],
     },
     {
       title: "ComicVault",
@@ -518,25 +669,25 @@ export const MyProjects = {
         "Docker",
       ],
     },
-//    {
-//    title: "Synq ",
-//    Logo: "/data/logos/Synq.png",
-//    type: "Web Application",
-//    description:
-//      "A real-time collaborative workspace that keeps teams and files in perfect sync. Share folders, edit documents, and collaborate effortlessly with instant updates and secure cloud storage.",
-//    startDate: "",
-//    endDate: "Present",
-//    link: "",
-//    tech: [
-//      "NextJS",
-//      "TailwindCSS",
-//      "ShadCN/UI",
-//      "Supabase",
-//      "DrizzleORM",
-//      "Socket.IO",
-//      "Stripe",
-//    ],
-//  },
+    //    {
+    //    title: "Synq ",
+    //    Logo: "/data/logos/Synq.png",
+    //    type: "Web Application",
+    //    description:
+    //      "A real-time collaborative workspace that keeps teams and files in perfect sync. Share folders, edit documents, and collaborate effortlessly with instant updates and secure cloud storage.",
+    //    startDate: "",
+    //    endDate: "Present",
+    //    link: "",
+    //    tech: [
+    //      "NextJS",
+    //      "TailwindCSS",
+    //      "ShadCN/UI",
+    //      "Supabase",
+    //      "DrizzleORM",
+    //      "Socket.IO",
+    //      "Stripe",
+    //    ],
+    //  },
     {
       title: "Convex Hull Generator",
       Logo: null,
@@ -557,7 +708,7 @@ export const MyProjects = {
       startDate: "Apr 2023",
       endDate: "Jun 2023",
       link: "https://github.com/MohammadYehya/Linux_Based_Task_Manager",
-      tech: ["C", "GTK", "Glade", "Shell Script"],
+      tech: ["C", "GTK", "Glade", "Bash"],
     },
     {
       title: "Huffman Encoding File Compression",
@@ -595,7 +746,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       startDate: "Jul 2025",
       endDate: "Present",
-      desc: "I collaborated with clients to gather business requirements, assisted in designing and implementing enterprise solutions supported testing activities, coordinated with cross-functional teams, participated in data analysis and migration efforts, and occasionally assisted with pre-sales support and project planning.",
+      desc: "Contributed to RFPAnalyzer, an AI-driven platform that automates and enhances the analysis of Requests for Proposals (RFPs). My work involves designing and refining AI workflows for document understanding, supporting data processing and automation pipelines, and collaborating closely with product and engineering teams to improve accuracy, scalability, and user experience.",
     },
     {
       logo: "/data/logos/imperiumdynamics.png",
