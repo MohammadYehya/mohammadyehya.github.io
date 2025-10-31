@@ -78,7 +78,7 @@ export default function Projects() {
                             <HoverCardTrigger asChild>
                               <div className="w-10 h-10 border border-black rounded-md flex justify-center items-center hover:bg-slate-200 hover:scale-110 transition-all duration-100">
                                 <Image
-                                  src={`${getPath(item)}`}
+                                  src={getPath(item) || ""}
                                   alt=""
                                   width={20}
                                   height={1}
