@@ -468,7 +468,7 @@ export const MyProjects = {
       Logo: null,
       type: "Web Application",
       description:
-        "An AI-driven platform that automates and enhances the analysis of Requests for Proposals (RFPs).",
+        "An internal AI-driven platform, made for Systems Limited, that automates and enhances the analysis of Requests for Proposals (RFPs), and eventually generates slides for the proposals.",
       startDate: "Oct 2025",
       endDate: "Present",
       link: "",
@@ -746,7 +746,7 @@ export const MyExperiences = {
       location: "Karachi, Pakistan",
       dates: ["Jul 2025", "Present"],
       // endDate: "Present",
-      desc: ["Contributed to RFPAnalyzer, an AI-driven platform, made for Systems Limited, that automates and enhances the analysis of Requests for Proposals (RFPs). My work involved designing and refining AI workflows for document understanding, supporting data processing and automation pipelines, and collaborating closely with product and engineering teams to improve accuracy, scalability, and user experience."],
+      desc: ["Contributed to RFPAnalyzer, an AI-driven platform that automates and enhances the analysis of Requests for Proposals (RFPs). My work involved designing and refining AI workflows for document understanding, supporting data processing and automation pipelines, and collaborating closely with product and engineering teams to improve accuracy, scalability, and user experience."],
     },
     {
       logo: "/data/logos/imperiumdynamics.png",
