@@ -420,6 +420,16 @@ export const MySkills = {
           proficiency: 1,
         },
         {
+          name: "Obsidian",
+          imgpath: "/data/images/obsidian.svg",
+          proficiency: 1,
+        },
+        {
+          name: "Discord.js",
+          imgpath: "/data/images/discordjs.svg",
+          proficiency: 1,
+        },
+        {
           name: "Apache Kafka",
           imgpath: "/data/images/kafka.svg",
           proficiency: 1,
